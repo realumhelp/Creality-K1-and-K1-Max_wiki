@@ -109,3 +109,5 @@ The changes to the Custom Firmware are quite simple, it's just stock firmware wi
       CX_PRINT_DRAW_ONE_LINE
     ```
   - Then, click on `SAVE & RESTART` button in the top right corner.
+
+<br />
