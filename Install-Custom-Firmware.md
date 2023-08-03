@@ -20,6 +20,8 @@ The changes to the Custom Firmware are quite simple, it's just stock firmware wi
 
 <u>Note:</u> The 5 instead of a 1 at the beginning is normal, it's to enable restoration or reinstallation on top of the same version.
 
+Also note that the K1 firmwares works without issue on the K1 Max, the detection of the correct printer being carried out by the firmware.
+
 <br />
 
 ## Installation
