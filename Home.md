@@ -10,6 +10,10 @@ The advantage is to have full access to the firmware and configuration files in 
 
 If you don't know what you're doing, I don't recommend following this guide.
 
-<u>Note:</u> Some of the firmwares were provided by Creality but have not yet been released publicly.
+<br />
+
+## Credits
+
+Special Thanks are available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks).
 
 <br />
