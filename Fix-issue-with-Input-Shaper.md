@@ -82,6 +82,5 @@ Here are the tests that demonstrate this:
   Performing the Y axis resonance test first avoids overwriting the X axis result.
 
   <u>Note:</u> When updating to a new firmware version, the `extra_macro.cfg` file will be deleted and changes made to the `gcode_macro.cfg` and `printer.cfg` files will also be deleted, only the settings are kept.
-  Creality has set up a swap system that replaces any modifications made at startup.
 
 <br />
