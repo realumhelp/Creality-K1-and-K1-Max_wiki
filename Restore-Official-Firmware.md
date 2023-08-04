@@ -7,14 +7,10 @@ You can easily restore Custom Firmware to Official Firmware.
 **Official Firmwares Creality K1:**
 
   - [1.3.1.14](https://drive.google.com/file/d/1bBI3zHbTUC9k4fL1csL5UeDjJXGb0jL4/view?usp=drive_link)
-  - [1.3.1.17](https://drive.google.com/file/d/1su1AYxMEVwH11iteAPxSd_4kpJVI9pCm/view?usp=drive_link)
-  - [1.3.1.18](https://drive.google.com/file/d/1mgGfbz8nbU8n2UCXNgQCT6aPTHPgn99r/view?usp=drive_link)
 
 **Official Firmwares Creality K1 Max:**
 
   - [1.3.0.39](https://drive.google.com/file/d/1sAQEguCromdUTqxiB6xMNPTFfYuo-Joj/view?usp=drive_link)
-  - [1.3.1.17](https://drive.google.com/file/d/1BFF9GXpCfQW-z_d4nJZgjc2UOY3KTW5S/view?usp=drive_link)
-  - [1.3.1.18](https://drive.google.com/file/d/1NnVGyoz21YsibocyXShKSa5A72f68rAU/view?usp=drive_link)
 
 <br />
 
