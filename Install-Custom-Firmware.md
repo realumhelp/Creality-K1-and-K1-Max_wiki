@@ -56,7 +56,7 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - To access to the original Fluidd Web Interface, just use your printer's IP address with port 4408 in your Web browser such as: `http://xxx.xxx.xxx.xxx:4408/` (replacing xxx.xxx.xxx.xxx by your local IP address).
 
-  <img width="2543" alt="Capture d’écran 2023-08-04 à 00 39 38" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9f55ef96-995d-4568-9a8b-7c6971b83af0">
+  <img width="2542" alt="Capture d’écran 2023-08-04 à 15 19 57" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0595b4a7-c4e4-407a-8efb-e1f95cc47c42">
 
 <br />
 
