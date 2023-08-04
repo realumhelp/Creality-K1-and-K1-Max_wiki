@@ -8,6 +8,7 @@
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
 > **• [Update Fluidd](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Fluidd)** <br />
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
+> **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
 ## Slicers
 > **• [OrcaSlicer for K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer-for-K1-Max)** <br />
 
