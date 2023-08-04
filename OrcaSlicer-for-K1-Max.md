@@ -14,9 +14,10 @@ It contains:
 
 <br />
 
-## Download Link
+## Download Links
 
 - [OrcaSlicer Creality K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1%20Max.zip)
+- You can also find my French translation for OrcaSlicer [here](https://drive.google.com/drive/folders/1dxPYa3dHhKou3HC3dDengFeG0LiHm-q2?usp=drive_link)
 
 <br />
 
