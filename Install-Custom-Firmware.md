@@ -9,14 +9,10 @@ The changes to the Custom Firmware are quite simple, it's just stock firmware wi
 **Custom Firmwares Creality K1:**
 
   - [5.3.1.14](https://drive.google.com/file/d/1Lu5qVSBVaqp3WWV529CrqF93ClSYGKX8/view?usp=drive_link)
-  - [5.3.1.17](https://drive.google.com/file/d/1228bKE0FFBkAwOwh-yepYnttJXWZOZUT/view?usp=drive_link)
-  - [5.3.1.18](https://drive.google.com/file/d/1TKOrBOegbK_GmWaTa1nsBdePvJXftugk/view?usp=drive_link)
 
 **Custom Firmwares Creality K1 Max:**
 
   - [5.3.0.39](https://drive.google.com/file/d/1hfRpwwpoywF0RelFWjGc6ZhDJMC5ZASJ/view?usp=drive_link)
-  - [5.3.1.17](https://drive.google.com/file/d/10IArVHTFPJDEYv7RGAUCQhuuhGwcvR4g/view?usp=drive_link)
-  - [5.3.1.18](https://drive.google.com/file/d/1veuCzwSbpQV3tOU4Boz--DzgEyadRtiB/view?usp=drive_link)
 
 <u>Note:</u> The 5 instead of a 1 at the beginning is normal, it's to enable restoration or reinstallation on top of the same version.
 
