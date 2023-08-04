@@ -20,7 +20,7 @@ You can easily restore Custom Firmware to Official Firmware.
 
 - Copy the desired `.img` firmware file you want to restore to the root of your USB drive and remove it from your computer.
 
-  ⚠ Make sure there is no other file present on the USB drive except the firmware file.
+  ⚠ **Make sure there is no other file present on the USB drive except the firmware file.**
 
 - Turn on the printer.
 
