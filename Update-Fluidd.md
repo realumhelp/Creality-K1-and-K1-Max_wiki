@@ -2,7 +2,7 @@ The version of Fluidd present in the firmware is not the latest.
 
 To update to the latest version, follow these steps:
 
-- On original Fluidd Web Interface go to `Configuration` and open `moonraker.conf` file and add this lines at the bottom:
+- On original Fluidd Web Interface go to `Configuration`, open `moonraker.conf` file and add this lines at the bottom:
 
   ```
   [update_manager]
