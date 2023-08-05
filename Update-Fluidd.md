@@ -33,4 +33,4 @@ To update to the latest version, follow these steps:
 
   <img width="900" alt="Capture d’écran 2023-08-04 à 14 53 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3239e180-b850-425a-831a-551ee20b5d23">
 
-  <u>Note:</u> All changes made in `moonraker.conf` file will be restored after restarting the printer. Creality has set up a swap system that replaces any modifications made at startup. 
+  <u>Note:</u> All changes made in `moonraker.conf` file will be restored after restarting the printer. Creality has set up a a wipe data system that replaces any modifications made at startup. 
