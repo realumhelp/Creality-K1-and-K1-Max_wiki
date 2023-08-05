@@ -18,7 +18,7 @@ To update to the latest version, follow these steps:
 
 - Then, click on `SAVE` button in the top right corner.
 
-- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and on command command prompt window, enter the following command to restart Moonraker service:
+- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and on command prompt window, enter the following command to restart Moonraker service:
 
   ```
   /etc/init.d/S56moonraker_service restart
