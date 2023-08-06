@@ -47,7 +47,11 @@ Here are the tests that demonstrate this:
 
 - I have added `extra_macro.cfg` file available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/Stock%20Config%20Files/extra_macro.cfg) that contains macros to start a Bed Leveling manually, to start Input Shaper for X and Y axis and to start PID for Hotend and Bed.
 
-- Download this file and just drag and drop it in `Configuration Files` on Fluidd, like that:
+- Download this file, on top right corner, here:
+
+  <img width="292" alt="Capture d’écran 2023-08-06 à 13 40 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9c5d1872-0040-4d36-a85b-45751f124447">
+
+- And just drag and drop it in `Configuration Files` on Fluidd, like that:
 
   <img width="700" alt="Capture d’écran 2023-08-04 à 13 40 59" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/8c027c82-b63f-433a-bb63-a0da2988d70d">
 
