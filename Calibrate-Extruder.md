@@ -81,7 +81,7 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 
   `<current_rotation_distance>` * `<extrusion_distance>` / `<requested_extrude_distance>` = `<rotation_distance>`
 
-  6.9 * 102 / 100 = **7.038**
+  6.9 * 102mm / 100mm = **7.038**
 
 - I replace the **rotation_distance: 6.9** line in the `printer.cfg` file with **rotation_distance: 7.038**:
 
