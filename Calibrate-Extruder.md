@@ -83,7 +83,17 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 
   6.9 * 102 / 100 = **7.038**
 
-- I replace the **rotation_distance: 6.9** line in the `printer.cfg` file with **rotation_distance: 7.038**.
+- I replace the **rotation_distance: 6.9** line in the `printer.cfg` file with **rotation_distance: 7.038**:
 
+  ```
+  [extruder]
+  max_extrude_only_distance: 1000.0
+  max_extrude_cross_section: 80
+  step_pin: nozzle_mcu:PB1
+  dir_pin: nozzle_mcu:PB0
+  enable_pin: !nozzle_mcu:PB2
+  microsteps: 16
+  rotation_distance: 7.038
+  ```
 
 <br />
