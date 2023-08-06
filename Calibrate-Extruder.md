@@ -1,7 +1,5 @@
 On an extruder, the rotation_distance is the amount of distance the filament travels for one full rotation of the stepper motor. The best way to get an accurate value for this setting is to use a "measure and trim" procedure.
 
-⚠ **Make sure the extruder has filament in it, the hotend is heated to an appropriate temperature, and the printer is ready to extrude.**
-
 ## Procedure
 
 - Remove PTFE tube from the Hotend for the measure.
