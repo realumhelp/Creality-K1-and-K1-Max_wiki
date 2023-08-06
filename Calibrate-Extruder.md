@@ -55,6 +55,8 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 
 - Then replace the new value in the `printer.cfg` file by rounding the new `rotation_distance` to three decimal places.
 
+- You can now retract filament and replace your PTFE tube in its place, your extruder is calibrated.
+
 <br />
 
 ## Example
