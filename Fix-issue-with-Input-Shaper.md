@@ -43,29 +43,31 @@ Here are the tests that demonstrate this:
   gcode:
   ```
 
-- Then, click on `SAVE & RESTART` button in the top right corner.
-
-- I have added `extra_macro.cfg` file available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/Stock%20Config%20Files/extra_macro.cfg) that contains macros to start a Bed Leveling manually, to start Input Shaper for X and Y axis and to start PID for Hotend and Bed.
-
-- Download this file, on top right corner, here:
-
-  <img width="292" alt="Capture d’écran 2023-08-06 à 13 40 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9c5d1872-0040-4d36-a85b-45751f124447">
-
-- And just drag and drop it in `Configuration Files` on Fluidd, like that:
-
-  <img width="700" alt="Capture d’écran 2023-08-04 à 13 40 59" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/8c027c82-b63f-433a-bb63-a0da2988d70d">
-
-- Open `printer.cfg` file and add this line:
+- Search macro named `[gcode_macro INPUTSHAPER]` and add this line `SHAPER_CALIBRATE AXIS=x` after `SHAPER_CALIBRATE AXIS=y` like that:
 
   ```
-  [include extra_macro.cfg]
+  [gcode_macro INPUTSHAPER]
+  gcode:
+    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+    G90
+    G28
+    {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
+    {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
+    G1 X{POSITION_X} Y{POSITION_Y} F6000
+    G1 Z10 F600
+    SHAPER_CALIBRATE AXIS=y
+    SHAPER_CALIBRATE AXIS=x
+    CXSAVE_CONFIG
+    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
+    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
-- Now run `INPUT_SHAPPER_Y` macro, this will measure the Y axis resonances.
+- Now run `INPUTSHAPPER` macro, this will measure the Y axis resonances and then the X axis resonances..
 
-- This is the result:
+- This is the result for Y axis:
 
   <img width="900" alt="Capture d’écran 2023-08-04 à 13 55 33" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b706605a-a579-4605-bb46-01b55eb3d6a3">
 
@@ -73,9 +75,7 @@ Here are the tests that demonstrate this:
 
   <img width="679" alt="Capture d’écran 2023-08-04 à 13 56 33" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b1940959-4205-4e33-885b-5527dd9d01f6">
 
-- When it's done, run `INPUT_SHAPPER_X` macro, this will measure the X axis resonances.
-
-- This is the result:
+- This is the result for X axis:
 
   <img width="850" alt="Capture d’écran 2023-08-04 à 14 02 54" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/e521de26-377b-4213-bcdd-9630024a19ff">
 
@@ -85,6 +85,6 @@ Here are the tests that demonstrate this:
 
   Performing the Y axis resonance test first avoids overwriting the X axis result.
 
-  <u>Note:</u> When updating to a new firmware version, the `extra_macro.cfg` file will be deleted and changes made to the `gcode_macro.cfg` and `printer.cfg` files will also be deleted, only the settings are kept.
+  <u>Note:</u> When updating to a new firmware version, the changes made to the `gcode_macro.cfg`, only the settings are kept.
 
 <br />
