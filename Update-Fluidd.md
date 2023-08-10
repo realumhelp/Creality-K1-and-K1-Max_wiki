@@ -1,5 +1,9 @@
 The version of Fluidd present in the firmware is not the latest.
 
+  <u>Note:</u> To have permanent configuration, make sure you have followed this [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration) section.
+
+<br />
+
 To update to the latest version, follow these steps:
 
 - On original Fluidd Web Interface go to `Configuration`, open `moonraker.conf` file and add this lines at the bottom:
@@ -33,4 +37,4 @@ To update to the latest version, follow these steps:
 
   <img width="900" alt="Capture d’écran 2023-08-04 à 14 53 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3239e180-b850-425a-831a-551ee20b5d23">
 
-  <u>Note:</u> All changes made in `moonraker.conf` file will be restored after restarting the printer. Creality has set up a a wipe data system that replaces any modifications made at startup. 
+<br />
