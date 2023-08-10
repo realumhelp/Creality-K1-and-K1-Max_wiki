@@ -1,3 +1,6 @@
+**10/08/2023:**
+- Added [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration) section.
+
 **08/08/2023:**
 - Improved [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper) section.
 - Updated OrcaSlicer profile to roll back wall generator to classic mode.
