@@ -110,6 +110,6 @@ Here are the tests that demonstrate this:
 
 - Performing the Y axis resonance test first avoids overwriting the X axis result.
 
-  <u>Note:</u> When updating to a new firmware version, the changes made to the `gcode_macro.cfg`, only the settings are kept.
+  <u>Note:</u> When updating to a new firmware version, the changes made to the `gcode_macro.cfg` will be deleted, only the settings are kept.
 
 <br />
