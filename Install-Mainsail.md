@@ -8,6 +8,8 @@ To have permanent configuration, make sure you have followed this [Permanent Moo
 
 Make sure you have also followed this [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker) section to have all features of Mainsail.
 
+<br />
+
 **<u>Note:</u> This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
 
 <br />
