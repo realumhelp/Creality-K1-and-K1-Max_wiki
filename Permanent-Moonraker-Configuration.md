@@ -1,6 +1,10 @@
 By default, Creality has set up a replacement for the Moonraker configuration file on startup, which prevents any permanent modifications.
 
-Here is the procedure to prevent this:
+**<u>Note:</u> This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
+
+<br />
+
+##  How to prevent this
 
 - Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and go to the folder `/etc/init.d/` on the left side of the window:
 
