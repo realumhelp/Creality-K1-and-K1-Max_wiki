@@ -12,6 +12,7 @@
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
 > **• [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration)** <br />
 > **• [Update Fluidd](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Fluidd)** <br />
+> **• [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker)** <br />
 > **• [Install Mainsail](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Mainsail)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
