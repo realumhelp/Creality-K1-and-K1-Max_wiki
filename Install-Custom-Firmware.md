@@ -41,9 +41,11 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - When you are on the home screen, you can remove the USB drive.
 
-- That's all! You are now on Custom Firmware with root access.
+- That's all! You are now on Custom Firmware with root access and you can connect over SSH, using `root` user and `creality` password.
 
-- To connect over SSH, use `root` user and `creality` password.
+- On the screen UI, go to `Settings` -> `Device Self-Check` -> check `Input Shaping` and `Auto Bed Leveling` -> click on `Self-Check` and wait for self-check to complete.
+
+- You can now use the printer.
 
 <br />
 
