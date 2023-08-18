@@ -52,6 +52,8 @@ Make sure you have also followed this [Update Moonraker](https://github.com/Guil
 
   Fluidd Web interface remains accessible on port 4408.
 
+  <img width="1100" alt="Sans titre-1 copie" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/cc4611c8-e3da-45f2-b215-20fa32e5526c">
+
 <br />
 
 ## Configure Camera
