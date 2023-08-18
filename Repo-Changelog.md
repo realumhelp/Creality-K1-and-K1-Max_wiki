@@ -1,4 +1,5 @@
 **18/08/2023:**
+- Added new rooted firmware v1.3.1.19 for K1 Max.
 - Added [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker) section.
 - Added [Install Mainsail](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Mainsail) section.
 
