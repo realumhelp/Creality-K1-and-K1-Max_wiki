@@ -1,5 +1,6 @@
 **18/08/2023:**
 - Added [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker) section.
+- Added [Install Mainsail](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Mainsail) section.
 
 **10/08/2023:**
 - Added [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration) section.
