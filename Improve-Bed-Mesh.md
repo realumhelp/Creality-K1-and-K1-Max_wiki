@@ -1,5 +1,7 @@
 You can improve Bed Mesh just changing the interpolation from lagrange to bicubic.
 
+<br />
+
 - On original Fluidd Web Interface go to `Configuration` and open `printer.conf` file.
 
 - Search macro named `[bed_mesh]` setting and add this lines at the end:
