@@ -43,7 +43,7 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - That's all! You are now on Custom Firmware with root access and you can connect over SSH, using `root` user and `creality` password.
 
-- On the screen UI, go to `Settings` -> `Device Self-Check` -> check `Input Shaping` and `Auto Bed Leveling` -> click on `Self-Check` and wait for self-check to complete.
+- On the screen UI, go to `Settings` -> on `System` tab in `Self-check` -> check `Input Shaping` and `Auto Leveling` -> click on `Start detecting` and wait for self-check to complete.
 
 - You can now use the printer.
 
