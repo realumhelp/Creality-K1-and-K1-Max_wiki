@@ -7,6 +7,10 @@ The resonance test is performed on the Y axis and the same result is also applie
 
 <br />
 
+**<u>Note:</u> When updating to a new firmware version, the changes made to the `gcode_macro.cfg` file will be deleted, only the settings saved in `printer.cfg` file are kept.**
+
+<br />
+
 ## Explanations
 
 Here are the tests that demonstrate this:
@@ -109,7 +113,5 @@ Here are the tests that demonstrate this:
   <img width="679" alt="Capture d’écran 2023-08-04 à 14 03 42" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0292e301-94be-4206-9619-8accc2a4f627">
 
 - Performing the Y axis resonance test first avoids overwriting the X axis result.
-
-  <u>Note:</u> When updating to a new firmware version, the changes made to the `gcode_macro.cfg` file will be deleted, only the settings saved in `printer.cfg` file are kept.
 
 <br />
