@@ -6,6 +6,8 @@ This allows to have the web interface of Fluidd and Mainsail that coexist togeth
 
 To have permanent configuration, make sure you have followed this [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration) section before.
 
+Make sure you have also followed this [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker) section to have all features of Mainsail.
+
 **<u>Note:</u> This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
 
 <br />
