@@ -1,4 +1,4 @@
-Fluidd is installed by default and use 4408 port but you can also install Mainsail with another port.
+Fluidd is installed by default and use 4408 port but you can also install Mainsail with another port (4409 here).
 
 This allows to have the web interface of Fluidd and Mainsail that coexist together.
 
