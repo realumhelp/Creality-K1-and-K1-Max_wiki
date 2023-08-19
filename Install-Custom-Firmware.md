@@ -77,7 +77,11 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - **<u>Fix START_PRINT macro issue:</u>**
 
-  The classic Creality Web Interface should work normally. However if you want to use the original Fluidd Web Interface, you need to fix an issue that seems to have been introduced by Creality since firmware 1.3.x.x.
+  The classic Creality Web Interface should work normally. However if you want to use the original Fluidd Web Interface to start a print, you need to fix an issue in `START_PRINT` macro.
+
+  <u>Note:</u> These changes are not necessary if you plan to start prints directly from the screen (Screen UI already start this commands before print).
+
+<br />
 
   - To do this, on original Fluidd Web Interface go to `Configuration` and open `gcode_macro.cfg` file.
 
