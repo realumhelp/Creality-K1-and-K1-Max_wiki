@@ -37,4 +37,6 @@ You can easily restore Custom Firmware to Official Firmware.
 
 - When the process is complete, if it says it's successful, just turn off the printer and turn it back on to boot into the new firmware.
 
+- On the screen UI, go to `Settings` -> on `System` tab in `Self-check` -> check `Input Shaping` and `Auto Leveling` and click on `Start detecting`.
+
 <br />
