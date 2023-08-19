@@ -27,7 +27,7 @@ You can easily restore Custom Firmware to Official Firmware.
 
 - When your are on home screen, plug USB drive on the front of the printer.
 
-- Connect over SSH to the printer, with `root` user and `creality` password and run this command:
+- Connect over SSH to the printer (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)), with `root` user and `creality` password and run this command:
 
   ```
   /etc/ota_bin/local_ota_update.sh /tmp/udisk/sda1/*.img
