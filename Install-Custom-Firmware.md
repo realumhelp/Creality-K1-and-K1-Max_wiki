@@ -67,9 +67,11 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - **<u>Fix camera issue:</u>**
 
-  When you first go to the original Fluidd Web Interface, the camera will not be detected.
+  When you first go to the original Fluidd Web Interface, the camera will not be detected because it's disabled by default.
 
-  It's necessary to go to `Settings` -> `Cameras`, delete the existing camera and recreate it with these settings:
+  It's necessary to go to `Settings` -> `Cameras` and enable it.
+
+- If not working, delete the existing camera and recreate it with these settings:
 
   <img width="400" alt="Capture d’écran 2023-08-04 à 00 46 48" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2aeafdb2-67b9-4c5b-9fe2-635dd2875512">
 
