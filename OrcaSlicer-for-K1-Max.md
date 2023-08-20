@@ -8,7 +8,7 @@ It contains:
 
   - Printer profile with thumbnails compatible with Web Interface and Creality screen.
   - Filaments: Creality Hyper PLA, Generic PLA, Generic PLA Silk, Generic PETG and Generic ABS.
-  - Settings for 0.12mm, 0.16mm and 0.20mm.
+  - Settings for 0.12mm, 0.16mm, 0.20mm, 0.24mm and 0.28mm.
   - Build plates models (from [Henlor](https://www.printables.com/model/537623-creality-build-plate-models-and-textures)) and textures (with and without calibration).
   - Readme file to install it.
 
