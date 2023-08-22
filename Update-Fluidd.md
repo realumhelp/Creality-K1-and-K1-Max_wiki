@@ -35,7 +35,7 @@ To have permanent configuration, make sure you have followed this [Permanent Moo
 
   <img width="900" alt="Capture d’écran 2023-08-04 à 14 49 19" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f16b9c09-1f8b-4191-bad2-8f6372eb01ff">
 
-  ⚠ **DO NOT UPDATE MOONRAKER VERSION AND DO NOT RECOVER KLIPPER VERSION, ONLY FLUIDD!**
+  ⚠ **DO NOT UPDATE KLIPPER VERSION AND DO NOT RECOVER MOONRAKER VERSION, ONLY FLUIDD!**
 
 - When it's done Fluidd is up to date:
 
