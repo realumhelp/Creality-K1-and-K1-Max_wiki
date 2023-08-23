@@ -1,3 +1,5 @@
+![Sans titre-1 copie](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/106e5797-dc95-46ad-9caf-3a1e452c5ce0)
+
 ## Informations
 > **• [About](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki)** <br />
 > **• [Repo Changelog](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Repo-Changelog)** <br />
