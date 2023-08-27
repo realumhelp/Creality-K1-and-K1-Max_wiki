@@ -19,6 +19,6 @@
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
-> **• [OrcaSlicer for K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer-for-K1-Max)** <br />
+> **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
 
 **[Special Thanks](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks)** <br />
