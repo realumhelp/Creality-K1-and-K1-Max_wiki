@@ -1,4 +1,4 @@
-I made a printer profile for Creality K1 Max in OrcaSlicer.
+I made a printer profile for Creality K1 and K1 Max in OrcaSlicer.
 
 <img width="1000" alt="Capture d’écran 2023-08-04 à 02 07 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2a33c5a7-b9a9-4644-adb1-6f6957c7b332">
 
@@ -16,7 +16,8 @@ It contains:
 
 ## Download Links
 
-- [OrcaSlicer Creality K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1%20Max.zip)
+- [OrcaSlicer for Creality K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1%20Max.zip)
+- [OrcaSlicer for Creality K1](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1.zip)
 - You can also find my French translation for OrcaSlicer [here](https://drive.google.com/drive/folders/1dxPYa3dHhKou3HC3dDengFeG0LiHm-q2?usp=drive_link)
 
 <br />
