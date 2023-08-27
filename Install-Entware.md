@@ -4,7 +4,7 @@ Installing Entware allows packages to be added to your printer to perform new ta
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you update the firmware.**
+**<u>Note:</u> This procedure must be repeated and packages must be reinstalled if you update the firmware.**
 
 <br />
 
