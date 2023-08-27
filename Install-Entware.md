@@ -16,7 +16,7 @@ Installing Entware allows packages to be added to your printer to perform new ta
   wget -O -  https://openk1.org/static/entware/install-entware-k1.sh | /bin/sh
   ```
 
-- The script will then set up the necessary to use Entware:
+- The script (from [destinal](https://www.reddit.com/user/destinal/)) will then set up the necessary to use Entware:
 
   <img width="1000" alt="Sans titre-3" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9a3696c8-de94-49d0-abbb-017306c52a2f">
 
