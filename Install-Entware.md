@@ -58,7 +58,7 @@ Installing Entware allows packages to be added to your printer to perform new ta
 
 By default, SFTP protocol is not allowed on your printer. This can be useful with some software that only works with SFTP.
 
-An example with Cyberduck on macOS:
+- An example with Cyberduck on macOS:
 
   <img width="700" alt="Capture d’écran 2023-08-27 à 13 07 34" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2a1f9680-be50-468d-8e5b-1c24874e264c">
 
@@ -68,6 +68,6 @@ An example with Cyberduck on macOS:
   opkg install openssh-sftp-server; ln -s /opt/libexec/sftp-server /usr/libexec/sftp-server
   ```
 
-SFTP protocol is now allowed:
+- SFTP protocol is now allowed:
 
   <img width="700" alt="Capture d’écran 2023-08-27 à 13 10 01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f0d09db9-7ad9-4f6e-b271-d6ef25b64118">
