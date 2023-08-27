@@ -14,6 +14,6 @@ If you don't know what you're doing, I don't recommend following this guide.
 
 ## Credits
 
-Credits are available here: [Special Thanks](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks).
+Credits are available here: [Special Thanks](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks)
 
 <br />
