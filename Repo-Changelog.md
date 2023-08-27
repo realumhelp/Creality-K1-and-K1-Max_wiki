@@ -1,3 +1,6 @@
+**27/08/2023:**
+- Added new [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section.
+
 **20/08/2023:**
   - Updated OrcaSlicer profiles.
 
