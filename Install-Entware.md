@@ -28,6 +28,12 @@ Installing Entware allows packages to be added to your printer to perform new ta
   opkg install <packagename>
   ```
 
+  Example to install Nano (Nano is a small and simple text editor for use on the terminal):
+
+  ```
+  opkg install nano
+  ```
+
 - The list of available packages can be found [here](https://bin.entware.net/mipselsf-k3.4/Packages.html).
 
 - You can also remove packages with this command by replacing `<packagename>` by the name of the package:
