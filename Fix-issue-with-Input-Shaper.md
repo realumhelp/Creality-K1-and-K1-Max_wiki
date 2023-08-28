@@ -80,6 +80,7 @@ Here are the tests that demonstrate this:
     SHAPER_CALIBRATE AXIS=Y
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+    SAVE_CONFIG
   ```
 
   <u>Note:</u> Some K1 printers don't have `filament_sensor_2`, so you can remove this lines of the macros above:
