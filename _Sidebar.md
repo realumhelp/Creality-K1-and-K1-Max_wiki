@@ -20,5 +20,7 @@
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
+## STL Files
+> **• [Printables](https://www.printables.com/@Guilouz/models)** <br />
 
 **[Special Thanks](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks)** <br />
