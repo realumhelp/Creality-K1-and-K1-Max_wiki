@@ -42,3 +42,9 @@ To have permanent configuration, make sure you have followed this [Permanent Moo
   <img width="900" alt="Capture d’écran 2023-08-04 à 14 53 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3239e180-b850-425a-831a-551ee20b5d23">
 
 <br />
+
+## Timelapse
+
+If you want to use Timelapse function in Fluidd you can follow guide from Mike Constantino available here: [Github](https://github.com/mikebcbc/creality-k1-moonraker-timelapse)
+
+<br />
