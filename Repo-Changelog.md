@@ -1,3 +1,6 @@
+**31/08/2023:**
+Added new rooted firmware v1.3.1.28 for K1.
+
 **27/08/2023:**
 - Added new [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section.
 - Added profiles for OrcaSlicer and Creality K1.
