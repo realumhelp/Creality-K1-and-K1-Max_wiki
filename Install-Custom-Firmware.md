@@ -12,6 +12,8 @@ The changes to the Custom Firmware are quite simple, it's just stock firmware wi
 
   - [5.3.1.14](https://drive.google.com/file/d/1Lu5qVSBVaqp3WWV529CrqF93ClSYGKX8/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.1.14.txt))
 
+  - [5.3.1.28](https://drive.google.com/file/d/1vZ6T5Fn-QWL66j2wNDzOzmSHWAhZzzb9/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.1.28.txt))
+
 **Custom Firmwares Creality K1 Max:**
 
   - [5.3.0.39](https://drive.google.com/file/d/1hfRpwwpoywF0RelFWjGc6ZhDJMC5ZASJ/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.0.39.txt))
