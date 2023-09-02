@@ -1,3 +1,6 @@
+**02/09/2023:**
+- Added new [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros) section.
+
 **31/08/2023:**
 - Added new rooted firmware v1.3.1.28 for K1.
 
