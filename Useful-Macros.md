@@ -160,4 +160,53 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
   <img width="600" alt="Capture d’écran 2023-09-02 à 16 27 28" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c4a7a4c6-e443-44cd-b78b-6b2d964a5c88">
 
+<br /><br />
+
+## Automatic saving and loading Z-Offset
+
+If you adjust Gcode Offset (aka Z Baby Stepping) during print it's necessary to save it after print to be used next time.
+
+However, sometimes we forget to save it. With these macros you will never need to save it again and it will be automatically reloaded each time Klipper starts.
+
+- In your `printer.cfg` file, add this lines:
+
+  ```
+  [save_variables]
+  filename: /usr/data/printer_data/config/variables.cfg
+
+  [respond]
+  ```
+
+- In your `gcode_macro.cfg` file, add this lines:
+
+  ```
+  [gcode_macro SET_GCODE_OFFSET]
+  description: Saving Z-Offset
+  rename_existing: _SET_GCODE_OFFSET
+  gcode:
+  {% if printer.save_variables.variables.zoffset %}
+  {% set zoffset = printer.save_variables.variables.zoffset %}
+  {% else %}
+  {% set zoffset = {'z': None} %}
+  {% endif %}
+  {% set ns = namespace(zoffset={'z': zoffset.z}) %}
+  _SET_GCODE_OFFSET {% for p in params %}{'%s=%s '% (p, params[p])}{% endfor %}
+  {%if 'Z' in params %}{% set null = ns.zoffset.update({'z': params.Z}) %}{% endif %}
+  {%if 'Z_ADJUST' in params %}
+  {%if ns.zoffset.z == None %}{% set null = ns.zoffset.update({'z': 0}) %}{% endif %}
+  {% set null = ns.zoffset.update({'z': (ns.zoffset.z | float) + (params.Z_ADJUST | float)}) %}
+  {% endif %}
+  SAVE_VARIABLE VARIABLE=zoffset VALUE="{ns.zoffset}"
+
+
+  [delayed_gcode LOAD_GCODE_OFFSETS]
+  initial_duration: 2
+  gcode:
+  {% if printer.save_variables.variables.zoffset %}
+  {% set zoffset = printer.save_variables.variables.zoffset %}
+  _SET_GCODE_OFFSET {% for axis, offset in zoffset.items() if zoffset[axis] %}{ "%s=%s " % (axis, offset) }{% endfor %}
+  { action_respond_info("Loaded Z-Offset from variables.cfg file: %s" % (zoffset)) }
+  {% endif %}
+  ```
+
 <br />
