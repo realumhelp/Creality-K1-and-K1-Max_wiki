@@ -61,6 +61,7 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
     END_PRINT_POINT_WITHOUT_LIFTING
     M84
   ```
+
 <br />
 
 ## PID Calibration
@@ -113,6 +114,7 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   You can select Hotend temperature you want for PID calibration:
 
   <img width="600" alt="Capture d’écran 2023-09-02 à 14 31 17" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2b1148d1-b90a-46d4-8cd2-99feb7f71e98">
+
 
 <br />
 
