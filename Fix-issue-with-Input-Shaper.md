@@ -56,7 +56,9 @@ Here are the tests that demonstrate this:
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
     G90
+    {% if printer.toolhead.homed_axes != "xyz" %}
     G28
+    {% endif %}
     {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
     {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
     G1 X{POSITION_X} Y{POSITION_Y} F6000
@@ -64,7 +66,8 @@ Here are the tests that demonstrate this:
     SHAPER_CALIBRATE AXIS=X
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    SAVE_CONFIG
+    END_PRINT_POINT_WITHOUT_LIFTING
+    M84
 
   [gcode_macro INPUT_SHAPPER_Y]
   description: Measure Y axis resonances
@@ -72,7 +75,9 @@ Here are the tests that demonstrate this:
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
     G90
+    {% if printer.toolhead.homed_axes != "xyz" %}
     G28
+    {% endif %}
     {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
     {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
     G1 X{POSITION_X} Y{POSITION_Y} F6000
@@ -80,7 +85,8 @@ Here are the tests that demonstrate this:
     SHAPER_CALIBRATE AXIS=Y
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    SAVE_CONFIG
+    END_PRINT_POINT_WITHOUT_LIFTING
+    M84
   ```
 
   <u>Note:</u> Some K1 printers don't have `filament_sensor_2`, so you can remove this lines of the macros above:
@@ -114,5 +120,11 @@ Here are the tests that demonstrate this:
   <img width="679" alt="Capture d’écran 2023-08-04 à 14 03 42" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0292e301-94be-4206-9619-8accc2a4f627">
 
 - Performing the Y axis resonance test first avoids overwriting the X axis result.
+
+- Remember to save the new recorded values with the following command in Console:
+
+  ```
+    SAVE_CONFIG
+  ```
 
 <br />
