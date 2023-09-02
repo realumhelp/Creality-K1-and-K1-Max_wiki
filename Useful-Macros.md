@@ -158,6 +158,6 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
   You can define some parameters for Bed Leveling like Hotend and Bed temperatures or Probe count:
 
-  <img width="600" alt="Capture d’écran 2023-09-02 à 14 36 18" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f4315ff3-dafd-4187-b9c3-f1db32d2f6b7">
+  <img width="600" alt="Capture d’écran 2023-09-02 à 16 27 28" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c4a7a4c6-e443-44cd-b78b-6b2d964a5c88">
 
 <br />
