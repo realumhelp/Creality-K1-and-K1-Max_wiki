@@ -17,6 +17,7 @@
 > **• [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker)** <br />
 > **• [Install Mainsail](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Mainsail)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
+> **• [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
