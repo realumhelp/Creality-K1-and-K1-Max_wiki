@@ -85,7 +85,9 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   M106
   PID_CALIBRATE HEATER=heater_bed TARGET={params.BED_TEMP|default(70)}
   M107
-  END_PRINT_POINT_WITHOUT_LIFTING
+  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+  G1 X{x_park} Y{y_park} F20000
   M84
   ```
 
@@ -110,7 +112,9 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   M106
   PID_CALIBRATE HEATER=extruder TARGET={params.HOTEND_TEMP|default(250)}
   M107
-  END_PRINT_POINT_WITHOUT_LIFTING
+  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+  G1 X{x_park} Y{y_park} F20000
   WAIT_TEMP_START
   M84
   ```
