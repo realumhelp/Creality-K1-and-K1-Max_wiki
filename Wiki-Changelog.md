@@ -1,3 +1,6 @@
+**03/09/2023:**
+- Updated macros.
+
 **02/09/2023:**
 - Added new [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros) section.
 
