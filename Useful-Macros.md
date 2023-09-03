@@ -156,11 +156,10 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   BED_MESH_OUTPUT
   {% set y_park = printer.toolhead.axis_maximum.y/2 %}
   {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
-  G1 X{x_park} Y{y_park} F2000
+  G1 X{x_park} Y{y_park} F20000
   TURN_OFF_HEATERS
   SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
   SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-  END_PRINT_POINT_WITHOUT_LIFTING
   M84
   ```
 
