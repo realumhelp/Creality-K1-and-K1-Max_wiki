@@ -53,40 +53,45 @@ Here are the tests that demonstrate this:
   [gcode_macro INPUT_SHAPPER_X]
   description: Measure X axis resonances
   gcode:
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-    G90
-    {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-    {% endif %}
-    {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
-    {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
-    G1 X{POSITION_X} Y{POSITION_Y} F6000
-    G1 Z10 F600
-    SHAPER_CALIBRATE AXIS=X
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    END_PRINT_POINT_WITHOUT_LIFTING
-    M84
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+  G90
+  {% if printer.toolhead.homed_axes != "xyz" %}
+  G28
+  {% endif %}
+  {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
+  {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
+  G1 X{POSITION_X} Y{POSITION_Y} F6000
+  G1 Z10 F600
+  SHAPER_CALIBRATE AXIS=X
+  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+  G1 X{x_park} Y{y_park} F20000
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+  M84
+
 
   [gcode_macro INPUT_SHAPPER_Y]
   description: Measure Y axis resonances
   gcode:
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-    G90
-    {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-    {% endif %}
-    {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
-    {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
-    G1 X{POSITION_X} Y{POSITION_Y} F6000
-    G1 Z10 F600
-    SHAPER_CALIBRATE AXIS=Y
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    END_PRINT_POINT_WITHOUT_LIFTING
-    M84
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+  G90
+  {% if printer.toolhead.homed_axes != "xyz" %}
+  G28
+  {% endif %}
+  {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
+  {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
+  G1 X{POSITION_X} Y{POSITION_Y} F6000
+  G1 Z10 F600
+  SHAPER_CALIBRATE AXIS=Y
+  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+  G1 X{x_park} Y{y_park} F20000
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+  M84
   ```
 
   <u>Note:</u> Some K1 printers don't have `filament_sensor_2`, so you can remove this lines of the macros above:
