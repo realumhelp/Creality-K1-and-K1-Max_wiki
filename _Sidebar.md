@@ -22,6 +22,7 @@
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
 ## STL Files
-> **• [Printables](https://www.printables.com/@Guilouz/models)** <br />
+> **• [Printables (Guilouz)](https://www.printables.com/@Guilouz/models)** <br />
+> **• [Printables (Henlor)](https://www.printables.com/fr/@Henlor_358992/models)** <br />
 
 **[Special Thanks](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Special-Thanks)** <br />
