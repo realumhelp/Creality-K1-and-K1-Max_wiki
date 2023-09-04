@@ -1,5 +1,5 @@
 **04/09/2023:**
-- Fixed macros identation.
+- Fixed macros indentation.
 
 **03/09/2023:**
 - Updated macros.
