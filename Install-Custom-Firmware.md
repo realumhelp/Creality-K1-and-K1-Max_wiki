@@ -29,7 +29,7 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 ## Installation
 
-- You need USB drive formatted in FAT32.
+- You need USB drive formatted in FAT32 with 4096 allocation size (or exFAT on some USB drive).
 
 - Copy the desired `.img` firmware file to the root of your USB drive and remove it from your computer.
 
