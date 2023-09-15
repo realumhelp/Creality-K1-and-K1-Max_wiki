@@ -10,20 +10,27 @@ The version of Moonraker, Fluidd and Mainsail provided by Creality are not the l
 
 If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first.
 
-- Download and unzip this script package: [creality_installer.zip](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Downloads/creality_installer.zip)
-
-- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and drap and drop `creality` folder in `/root/` folder on the left side of the window:
-
-  <img width="900" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/99f7a4e4-bb1c-4b6f-a559-b9a4a566c905">
-
-- When it's done, enter the following command to run the script:
+- Enter the following command to install script in /root folder:
 
   ```
-  sh ./creality/installer.sh
+  cd && wget https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
   ```
+
+  <u>Note:</u> To update the script when a new version is available, enter this command:
+
+  ```
+  cd && rm -rf /root/installer.sh && wget https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
+  ```
+
+- And enter this command to run the script:
+
+  ```
+  cd && sh ./installer.sh
+  ```
+
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-09-15 à 02 59 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f56b2bf5-4ee9-4e50-bfab-13f29e6e02df">
+  <img width="900" alt="Capture d’écran 2023-09-15 à 23 54 58" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9d6cf3e7-6411-41c8-9f22-fb8a7d84c2e4">
 
 <br />
 
@@ -34,6 +41,8 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
+  - `Backup configuration files` -> To backup Klipper config folder
+  - `restore configuration files` -> To restore a backup up Klipper config folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
 
 <br />
