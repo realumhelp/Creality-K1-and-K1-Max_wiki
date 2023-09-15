@@ -10,7 +10,7 @@ The version of Moonraker, Fluidd and Mainsail provided by Creality are not the l
 
 If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first.
 
-- Enter the following command to install script in /root folder:
+- Enter the following command to install script in `/root` folder:
 
   ```
   cd && wget https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
