@@ -4,7 +4,7 @@
 > **• [About](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki)** <br />
 > **• [Wiki Changelog](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Wiki-Changelog)** <br />
 ## Installation / Restoration
-> **• [Install Custom Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Custom-Firmware)** <br />
+> **• [Install Rooted Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Rooted-Firmware)** <br />
 > **• [Restore Official Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-Official-Firmware)** <br />
 ## Calibrations
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
