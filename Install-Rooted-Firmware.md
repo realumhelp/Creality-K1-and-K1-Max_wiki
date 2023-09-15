@@ -1,29 +1,19 @@
-The changes to the Custom Firmware are quite simple, it's just stock firmware with a modified shadow file setting the root password to "creality" and restoring the Creality version of fluidd and Moonraker which were disabled on early versions firmware up to version 1.2.9.15.
-
-<br />
-
-⚠ **Use these completely at your own risk. There are no promises that it won't brick your printer. Several people have tested it so far and no one has yet, but you could be the first.**
-
-<br />
+This guide explain how to install firmware and enable Root access.
 
 ## Download Links
 
-**Custom Firmwares Creality K1:**
+**Official Rooted Firmwares for Creality K1:**
 
-  - [5.3.1.14](https://drive.google.com/file/d/1Lu5qVSBVaqp3WWV529CrqF93ClSYGKX8/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.1.14.txt))
+  - [1.3.2.1](https://drive.google.com/file/d/1-hD7gfqsY3cuEoSbo1h7D2EJTM5Njihk/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.1.txt))
 
-  - [5.3.1.28](https://drive.google.com/file/d/1vZ6T5Fn-QWL66j2wNDzOzmSHWAhZzzb9/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.1.28.txt))
 
-**Custom Firmwares Creality K1 Max:**
+**Official Rooted Firmwares for Creality K1 Max:**
 
-  - [5.3.0.39](https://drive.google.com/file/d/1hfRpwwpoywF0RelFWjGc6ZhDJMC5ZASJ/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.0.39.txt))
-  - [5.3.1.19](https://drive.google.com/file/d/1LIncHBLqJ1tVRYJbSt-hP8SLNmkkX7Uo/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.1.19.txt))
+  - [1.3.2.1](https://drive.google.com/file/d/1-hD7gfqsY3cuEoSbo1h7D2EJTM5Njihk/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.1.txt))
 
 <br />
 
-<u>Note:</u> The 5 instead of a 1 at the beginning is normal, it's to enable restoration or reinstallation on top of the same version.
-
-Also note that the K1 firmwares works without issue on the K1 Max, the detection of the correct printer being carried out by the firmware.
+<u>Note:</u> The K1 firmwares works without issue on the K1 Max, the detection of the correct printer being carried out by the firmware.
 
 <br />
 
@@ -45,82 +35,33 @@ Also note that the K1 firmwares works without issue on the K1 Max, the detection
 
 - When you are on the home screen, you can remove the USB drive.
 
-- That's all! You are now on Custom Firmware with root access and you can connect over SSH, using `root` user and `creality` password.
-
 - On the screen UI, go to `Settings` -> on `System` tab in `Self-check` -> check `Input Shaping` and `Auto Leveling` and click on `Start detecting`.
 
 - When self-check is complete, you can now use the printer.
 
 <br />
 
-## Access to Web Interface
+## Enable Root access
 
-- To access to the classic Creality Web Interface, just use `Creality Print` slicer as usual.
+- On the screen UI, go to `Settings` -> `Root account information`:
 
-  <img width="2560" alt="Capture d’écran 2023-08-04 à 00 40 52" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/78bfd1f1-34f7-4816-8e6b-2036f0aee2e0">
+  <img width="600" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/030d49df-de42-4d3d-a91f-cc1127399040">
 
-- To access to the original Fluidd Web Interface, just use your printer's IP address with port 4408 in your Web browser such as: `http://xxx.xxx.xxx.xxx:4408/` (replacing xxx.xxx.xxx.xxx by your local IP address).
+- Carefully review the disclaimer, check the agreement box, wait 30 seconds and click on `OK` button:
 
-  <img width="2542" alt="Capture d’écran 2023-08-04 à 15 19 57" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0595b4a7-c4e4-407a-8efb-e1f95cc47c42">
+  <img width="600" alt="02" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3d0f0292-bbad-420a-aeba-6f5a902649f7">
 
-<br />
+- Root access is now enabled, you can click on `OK` button:
 
-## Needed Changes
+  <img width="600" alt="03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a327bd05-6db0-464f-9b4c-7b333651bafd">
 
-- **<u>Fix camera issue:</u>**
+- You can now connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) with:
 
-  When you first go to the original Fluidd Web Interface, the camera will not be detected because it's disabled by default.
-
-  It's necessary to go to `Settings` -> `Cameras` and enable it.
-
-- If not working, delete the existing camera and recreate it with these settings:
-
-  <img width="400" alt="Capture d’écran 2023-08-04 à 00 46 48" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2aeafdb2-67b9-4c5b-9fe2-635dd2875512">
+  - User: `root`
+  - Password: `creality_2023`
 
 <br />
 
-- **<u>Fix START_PRINT macro issue:</u>**
-
-  The classic Creality Web Interface should work normally. However if you want to use the original Fluidd Web Interface to start a print, you need to fix an issue in `START_PRINT` macro.
-
-  <u>Note:</u> These changes are not necessary if you plan to start prints directly from the screen (Screen UI already start this commands before print).
-
-<br />
-
-  - To do this, on original Fluidd Web Interface go to `Configuration` and open `gcode_macro.cfg` file.
-
-  - Search macro named `[gcode_macro START_PRINT]` and add these three lines before the existing line `CX_PRINT_DRAW_ONE_LINE`:
-
-    ```
-    CX_ROUGH_G28 EXTRUDER_TEMP={extruder_temp} BED_TEMP={bed_temp}
-    CX_NOZZLE_CLEAR
-    CX_PRINT_LEVELING_CALIBRATION
-    ```
-
-    Like that:
-
-    ```
-    [gcode_macro START_PRINT]
-    gcode:
-      WAIT_TEMP_END
-      CLEAR_PAUSE
-      {% set g28_extruder_temp = printer.custom_macro.g28_ext_temp %}
-      {% set bed_temp = printer.custom_macro.default_bed_temp %}
-      {% set extruder_temp = printer.custom_macro.default_extruder_temp %}
-     
-      {% if 'BED_TEMP' in params|upper and (params.BED_TEMP|float) %}
-        {% set bed_temp = params.BED_TEMP %}
-      {% endif %}
-
-      {% if 'EXTRUDER_TEMP' in params|upper and (params.EXTRUDER_TEMP|float) %}
-        {% set extruder_temp = params.EXTRUDER_TEMP %}
-      {% endif %}
-
-      CX_ROUGH_G28 EXTRUDER_TEMP={extruder_temp} BED_TEMP={bed_temp}
-      CX_NOZZLE_CLEAR
-      CX_PRINT_LEVELING_CALIBRATION
-      CX_PRINT_DRAW_ONE_LINE
-    ```
-  - Then, click on `SAVE & RESTART` button in the top right corner.
+<u>Note:</u> Root access must be re-enabled if you restore the printer to default settings.
 
 <br />
