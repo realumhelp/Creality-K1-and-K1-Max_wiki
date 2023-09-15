@@ -1,3 +1,5 @@
+- Make sure you have enabled Root access before by following this [Enable Root Access](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Rooted-Firmware#enable-root-access) section.
+
 - Download and install the MobaXterm software here: https://mobaxterm.mobatek.net/download-home-edition.html
 
 - Launch it then click on the `Session` icon:
