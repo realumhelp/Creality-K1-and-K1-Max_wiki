@@ -10,16 +10,22 @@ Installing Entware allows packages to be added to your printer to perform new ta
 
 ## Installation
 
-- If it's not already done, download and unzip this script package: [creality_installer.zip](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Downloads/creality_installer.zip)
-
-- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and drap and drop `creality` folder in `/root/` folder on the left side of the window:
-
-  <img width="900" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/99f7a4e4-bb1c-4b6f-a559-b9a4a566c905">
-
-- When it's done, enter the following command to run the script:
+- If it's not already done, enter the following command to install script in `/root` folder:
 
   ```
-  sh .creality/installer.sh
+  cd && wget https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
+  ```
+
+  <u>Note:</u> To update the script when a new version is available, enter this command:
+
+  ```
+  cd && rm -rf /root/installer.sh && wget https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
+  ```
+
+- And enter this command to run the script:
+
+  ```
+  cd && sh ./installer.sh
   ```
 
 - You can now install Entware by typing `4` and validate with `Enter` keyboard button:
