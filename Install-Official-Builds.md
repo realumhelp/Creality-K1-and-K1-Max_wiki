@@ -8,6 +8,8 @@ The version of Moonraker, Fluidd and Mainsail provided by Creality are not the l
 
 ## Install the latest builds
 
+If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first.
+
 - Download and unzip this script package: [creality_installer.zip](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Downloads/creality_installer.zip)
 
 - Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and drap and drop `creality` folder in `/root/` folder on the left side of the window:
