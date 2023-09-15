@@ -12,7 +12,7 @@
 
   <img width="700" alt="Capture d’écran 2023-08-04 à 01 52 27" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/e8cf225d-3a11-4547-abed-96bd68a4f08b">
 
-- On the new displayed window, enter the password `creality` (it's not displayed when typing, this is normal):
+- On the new displayed window, enter the password `creality_2023` (it's not displayed when typing, this is normal):
 
   <img width="1000" alt="Capture d’écran 2023-08-04 à 01 55 05" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9169f500-c164-4300-aad3-64604455cd53">
 
