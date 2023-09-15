@@ -1,4 +1,4 @@
-The version of Fluidd provided by Creality is not the latest. With this guide you can have latest official build.
+The version of Moonraker, Fluidd and Mainsail provided by Creality are not the latest. With this guide you can install latest official builds.
 
 <br />
 
