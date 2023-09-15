@@ -42,7 +42,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
   - `Backup configuration files` -> To backup Klipper config folder
-  - `restore configuration files` -> To restore a backup up Klipper config folder
+  - `Restore configuration files` -> To restore a backup up Klipper config folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
 
 <br />
