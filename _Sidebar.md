@@ -12,8 +12,7 @@
 > **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
 ## Tips
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
-> **• [Permanent Moonraker Configuration](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Permanent-Moonraker-Configuration)** <br />
-> **• [Update Fluidd](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Fluidd)** <br />
+> **• [Install Fluidd](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Fluidd)** <br />
 > **• [Update Moonraker](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Moonraker)** <br />
 > **• [Install Mainsail](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Mainsail)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
