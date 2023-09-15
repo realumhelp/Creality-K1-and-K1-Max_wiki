@@ -12,7 +12,7 @@
 > **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
 ## Tips
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
-> **• [Install Official builds](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Fluidd)** <br />
+> **• [Install Official Builds](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Official-Builds)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
 > **• [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
