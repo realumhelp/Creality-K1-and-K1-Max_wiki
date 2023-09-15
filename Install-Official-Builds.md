@@ -19,7 +19,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 - When it's done, enter the following command to run the script:
 
   ```
-  sh .creality/installer.sh
+  sh ./creality/installer.sh
   ```
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
