@@ -6,43 +6,70 @@ The version of Moonraker, Fluidd and Mainsail provided by Creality are not the l
 
 <br />
 
-## Install the latest version
+## Install the latest builds
 
-- On original Fluidd Web Interface go to `Configuration`, open `moonraker.conf` file and add this lines at the bottom:
+- Download and unzip this script package: [creality_installer.zip](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Downloads/creality_installer.zip)
 
-  ```
-  [update_manager]
-  enable_auto_refresh: True
-  enable_system_updates: False
+- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and drap and drop `creality` folder in `/root/` folder on the left side of the window:
 
-  [update_manager fluidd]
-  type: web
-  channel: beta
-  repo: fluidd-core/fluidd
-  path: /usr/share/fluidd
-  ```
+  <img width="900" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/99f7a4e4-bb1c-4b6f-a559-b9a4a566c905">
 
-- Then, click on `SAVE` button in the top right corner.
-
-- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) and on command prompt window, enter the following command to restart Moonraker service:
+- When it's done, enter the following command to run the script:
 
   ```
-  /etc/init.d/S56moonraker_service restart
+  sh .creality/installer.sh
   ```
-- Once Moonraker is reconnected on Fluidd go to `Settings` -> `Software Updates` and click to update fluidd:
+- You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-08-04 à 14 49 19" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f16b9c09-1f8b-4191-bad2-8f6372eb01ff">
+  <img width="900" alt="Capture d’écran 2023-09-15 à 02 59 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f56b2bf5-4ee9-4e50-bfab-13f29e6e02df">
 
-  ⚠ **DO NOT UPDATE KLIPPER VERSION AND DO NOT RECOVER MOONRAKER VERSION, ONLY FLUIDD!**
+<br />
 
-- When it's done Fluidd is up to date:
+  - `Install Moonraker and Nginx` -> To install official and upgradable build of Moonraker
+  - `Install Fluidd (port 4408)` -> To install on port 4408 latest official and upgradable build of Fluidd
+  - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
+  - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
+  - `Remove Fluidd` -> To remove Fluidd
+  - `Remove Mainsail` -> To remove Mainsail
+  - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
+  - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
 
-  <img width="900" alt="Capture d’écran 2023-08-04 à 14 53 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3239e180-b850-425a-831a-551ee20b5d23">
+<br />
+
+## Configure Camera
+
+### Configure Camera in Fluidd
+
+  When you first go to the original Fluidd Web Interface, the camera will not be detected because it's disabled by default.
+
+  It's necessary to go to `Settings` -> `Cameras` and enable it.
+
+- If not working, delete the existing camera and recreate it with these settings:
+
+  <img width="400" alt="Capture d’écran 2023-08-04 à 00 46 48" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2aeafdb2-67b9-4c5b-9fe2-635dd2875512">
+
+<br />
+
+### Configure Camera in Mainsail
+
+- Go to `Interface Settings` at the top right of the window and in `WEBCAMS` section.
+
+- Configure your webcam like this:
+
+  <img width="899" alt="Capture d’écran 2023-08-18 à 03 48 15" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0f025309-845b-4e88-9d79-6e63574d840f">
+
+<br />
+
+- Replacing xxx.xxx.xxx.xxx by your local IP address:
+
+    - **URL Stream:** `http://xxx.xxx.xxx.xxx:4409/webcam/?action=stream`
+    - **URL Snapshot:** `http://xxx.xxx.xxx.xxx:4409/webcam/?action=snapshot`
+    - **Service:** `MJPEG-Streamer` or `Adaptative MJPEG-Streamer (experimental)`
 
 <br />
 
 ## Timelapse
 
-If you want to use Timelapse function in Fluidd you can follow guide from Mike Constantino available here: [Github](https://github.com/mikebcbc/creality-k1-moonraker-timelapse)
+If you want to use Timelapse function in Fluidd or Mainsail you can follow guide from Mike Constantino available here: [Github](https://github.com/mikebcbc/creality-k1-moonraker-timelapse)
 
 <br />
