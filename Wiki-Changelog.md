@@ -1,3 +1,6 @@
+**15/09/2023:**
+- Updated Wiki to use latest Creality Rooted firmware .
+
 **04/09/2023:**
 - Fixed macros indentation.
 
