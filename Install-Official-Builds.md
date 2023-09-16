@@ -30,7 +30,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-09-15 à 23 54 58" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9d6cf3e7-6411-41c8-9f22-fb8a7d84c2e4">
+  <img width="900" alt="Capture d’écran 2023-09-16 à 02 30 44" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/cfbe540b-a939-4f45-a0cb-a7e8419780c4">
 
 <br />
 
@@ -38,9 +38,11 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Fluidd (port 4408)` -> To install on port 4408 latest official and upgradable build of Fluidd
   - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
   - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
+  - `Install Mobileraker Companion` -> To install Mobileraker Companion
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
+  - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
   - `Backup configuration files` -> To backup Klipper config folder
   - `Restore configuration files` -> To restore a backup up Klipper config folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
