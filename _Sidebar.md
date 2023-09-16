@@ -6,15 +6,16 @@
 ## Installation / Restoration
 > **• [Install Rooted Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Rooted-Firmware)** <br />
 > **• [Restore Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-Firmware)** <br />
-## Calibrations
+## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
 > **• [Calibrate Extruder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Calibrate-Extruder)** <br />
 > **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
-## Tips
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
 > **• [Install Official Builds](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Official-Builds)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
 > **• [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros)** <br />
+## Others
+> **• [Motherboard Layout](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Motherboard-Layout)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
