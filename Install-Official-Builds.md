@@ -30,7 +30,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-09-16 à 02 30 44" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/cfbe540b-a939-4f45-a0cb-a7e8419780c4">
+  <img width="900" alt="Capture d’écran 2023-09-16 à 19 15 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9acb0350-26e8-433f-9d1d-9b1cc3562d97">
 
 <br />
 
@@ -39,10 +39,12 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
   - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
   - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
+  - `Install Klipper Adaptive Meshing & Purging` -> To install Klipper Adaptive Meshing & Purging (more info here: [Github](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
   - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
+  - `Remove Klipper Adaptive Meshing & Purging` -> To remove Klipper Adaptive Meshing & Purging
   - `Backup configuration files` -> To backup Klipper config folder
   - `Restore configuration files` -> To restore a backup up Klipper config folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
