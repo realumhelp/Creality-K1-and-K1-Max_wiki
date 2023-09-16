@@ -1,6 +1,11 @@
+**17/09/2023**
+- Updated script to v1.5 to install/remove Moonraker Timelapse.
+- Reworked script with menus.
+
 **16/09/2023:**
 - Fix multiple instances when installing Moonraker.
-- Updated script to v1.3 to install/remove Mobileraker Companion and KAMP.
+- Updated script to v1.3 to install/remove Mobileraker Companion.
+- Updated script to v1.4 to install/remove KAMP.
 
 **15/09/2023:**
 - Updated Wiki to use latest Creality Rooted firmware .
