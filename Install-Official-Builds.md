@@ -38,7 +38,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Fluidd (port 4408)` -> To install on port 4408 latest official and upgradable build of Fluidd
   - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
   - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
-  - `Install Mobileraker Companion` -> To install Mobileraker Companion
+  - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
