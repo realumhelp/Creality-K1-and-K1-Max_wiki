@@ -1,3 +1,7 @@
+**16/09/2023:**
+- Fix multiple instances when installing Moonraker.
+- Updated script to v1.3 to install/remove Mobileraker Companion and KAMP.
+
 **15/09/2023:**
 - Updated Wiki to use latest Creality Rooted firmware .
 
