@@ -39,12 +39,12 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
   - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
   - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
-  - `Install Klipper Adaptive Meshing & Purging` -> To install Klipper Adaptive Meshing & Purging (more info here: [Github](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
+  - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info here: [Github](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
   - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
-  - `Remove Klipper Adaptive Meshing & Purging` -> To remove Klipper Adaptive Meshing & Purging
+  - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
   - `Backup configuration files` -> To backup Klipper config folder
   - `Restore configuration files` -> To restore a backup up Klipper config folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
