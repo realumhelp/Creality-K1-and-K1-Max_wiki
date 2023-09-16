@@ -30,7 +30,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-09-16 à 19 15 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9acb0350-26e8-433f-9d1d-9b1cc3562d97">
+  <img width="900" alt="Capture d’écran 2023-09-17 à 01 24 49" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b56f7af4-20c7-47e6-b33b-de55fe585508">
 
 <br />
 
