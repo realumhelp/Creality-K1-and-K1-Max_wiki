@@ -100,9 +100,3 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
     - **Service:** `MJPEG-Streamer` or `Adaptative MJPEG-Streamer (experimental)`
 
 <br />
-
-## Timelapse
-
-If you want to use Timelapse function in Fluidd or Mainsail you can follow guide from Mike Constantino available here: [Github](https://github.com/mikebcbc/creality-k1-moonraker-timelapse)
-
-<br />
