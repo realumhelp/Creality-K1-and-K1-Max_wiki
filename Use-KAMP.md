@@ -2,7 +2,7 @@ Klipper Adaptive Meshing & Purging is an extension that allows you to generate a
 
 Since the mesh area will be smaller, the mesh can be much more dense. Imagine making a 3x3 mesh, but the size of a [3DBenchy](https://www.3dbenchy.com/)!
 
-KAMP is working only if prints are started from the Fluidd or Mainsail Web Interface. This does not work if started directly through the printer screen.
+KAMP is also working only if prints are started directly through the printer screen by checking Calibration box before start print.
 
 <br />
 
