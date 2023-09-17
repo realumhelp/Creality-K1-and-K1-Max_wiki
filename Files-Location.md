@@ -28,7 +28,7 @@ Here you can find the different location of some files. Connect in SSH to access
 #### Animated Boot Screen:
 
   ```
-  /usr/data/creality/userdata/delay_image/video/
+  /etc/boot-display/part0/
   ```
 
 <br />
