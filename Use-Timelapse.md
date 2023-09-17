@@ -20,3 +20,40 @@ This process installs a version of Timelapse compatible with K1 Series.
 
 ## Configuration
 
+-  Open `moonraker.conf` file:
+
+   - On original Fluidd Web Interface go to `Configuration` icon on the left side.
+   - On original Mainsail Web Interface go to `Machine` tab on the left side.
+
+- Enable this lines by removing `#` before like this:
+
+  ```
+  # Remove '#' to enable Timelapse function and replace port '4408' by '4409' in snapshoturl if you use Mainsail
+  [timelapse]
+  output_path: /usr/data/printer_data/timelapse/
+  frame_path: /usr/data/printer_data/frames/
+  snapshoturl: http://localhost:4408/webcam/?action=snapshot
+  ```
+
+  <u>Note:</u> Replace port `4408` to `4409` in `snapshoturl` if you only use Mainsail.
+
+- Then, click on `SAVE & RESTART` button in the top right corner.
+
+- Open `printer.cfg` file and add this line to include Timelapse:
+
+  ```
+  [include timelapse.cfg]
+  ```
+
+- You can now configure Timelapse settings:
+
+  - On original Fluidd Web Interface go to `Settings` icon on the left side then to `Timelapse`.
+  - On original Mainsail Web Interface go to `Settings` on the top right corner then to `Timelapse`.
+
+- Your Slicer must be configured too, see this to configure it: [Github](https://github.com/mainsail-crew/moonraker-timelapse/blob/main/docs/configuration.md#slicer-setup)
+
+<br />
+
+More info about Moonraker Timelapse here: [Github](https://github.com/mainsail-crew/moonraker-timelapse)
+
+<br />
