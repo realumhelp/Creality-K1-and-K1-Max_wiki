@@ -50,6 +50,8 @@ This process installs a version of Timelapse compatible with K1 Series.
   - On original Fluidd Web Interface go to `Settings` icon on the left side then to `Timelapse`.
   - On original Mainsail Web Interface go to `Settings` on the top right corner then to `Timelapse`.
 
+    <img width="900" alt="Capture d’écran 2023-09-17 à 13 20 18" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/12c1c1f8-1fc3-4666-b4d3-fca0f84ea0d4">
+
 - Your Slicer must be configured too, see this to configure it: [Github](https://github.com/mainsail-crew/moonraker-timelapse/blob/main/docs/configuration.md#slicer-setup)
 
 <br />
