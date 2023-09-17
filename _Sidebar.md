@@ -13,6 +13,7 @@
 > **• [Access to Web Interface](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Access-to-Web-Interface)** <br />
 > **• [Configure Camera](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Configure-Camera)** <br />
 > **• [Use Timelapse](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Timelapse)** <br />
+> **• [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP)** <br />
 ## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
 > **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
