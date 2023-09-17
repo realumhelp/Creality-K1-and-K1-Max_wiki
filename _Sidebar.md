@@ -5,7 +5,7 @@
 > **• [Wiki Changelog](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Wiki-Changelog)** <br />
 ## Installation / Restoration
 > **• [Install Rooted Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Rooted-Firmware)** <br />
-> **• [Restore previous Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-previous-Firmware)** <br />
+> **• [Restore to previous Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-to-previous-Firmware)** <br />
 > **• [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
