@@ -28,7 +28,7 @@ Here you can find the different location of some files. Connect in SSH to access
 #### Animated Boot Screen:
 
   ```
-  /etc/boot-display/part0/
+  /etc/boot-display/
   ```
 
 <br />
