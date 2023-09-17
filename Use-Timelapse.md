@@ -25,7 +25,7 @@ This process installs a version of Timelapse compatible with K1 Series.
    - On original Fluidd Web Interface go to `Configuration` icon on the left side.
    - On original Mainsail Web Interface go to `Machine` tab on the left side.
 
-- Enable this lines by removing `#` before like this:
+- Enable this lines by removing `#` before like this (or add this lines if you don't have them):
 
   ```
   # Remove '#' to enable Timelapse function and replace port '4408' by '4409' in snapshoturl if you use Mainsail
