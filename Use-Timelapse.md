@@ -4,7 +4,7 @@ This process installs a version of Timelapse compatible with K1 Series.
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you update the firmware.**
+**<u>Note:</u> This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 <br />
 
