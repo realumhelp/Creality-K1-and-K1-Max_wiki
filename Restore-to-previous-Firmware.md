@@ -1,7 +1,5 @@
 You can easily restore current Firmware to a previous Firmware.
 
-<br />
-
 ## Download Links
 
 **Official Firmwares for Creality K1:**
