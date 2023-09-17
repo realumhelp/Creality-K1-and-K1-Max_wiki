@@ -34,6 +34,8 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 <br />
 
+- With my script you can do this:
+
   - `Install Moonraker and Nginx` -> To install official and upgradable build of Moonraker
   - `Install Fluidd (port 4408)` -> To install on port 4408 latest official and upgradable build of Fluidd
   - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
