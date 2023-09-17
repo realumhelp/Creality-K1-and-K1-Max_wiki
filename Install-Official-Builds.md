@@ -6,9 +6,9 @@ The version of Moonraker, Fluidd and Mainsail provided by Creality are not the l
 
 <br />
 
-## Install the latest builds
+## Install 'Installation Helper Script'
 
-If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first.
+If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first using `[Remove Menu]`.
 
 - Enter the following command to install script in `/root` folder:
 
