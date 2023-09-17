@@ -1,6 +1,8 @@
 **17/09/2023**
 - Updated script to v1.5 to install/remove Moonraker Timelapse.
 - Reworked script with menus.
+- Add new [Use Timelapse](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Timelapse) section.
+- Add new [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
 
 **16/09/2023:**
 - Fix multiple instances when installing Moonraker.
