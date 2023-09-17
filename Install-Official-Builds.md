@@ -49,8 +49,8 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
   - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
   - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
-  - `Backup configuration files` -> To backup Klipper config folder
-  - `Restore configuration files` -> To restore a backup up Klipper config folder
+  - `Backup configuration files` -> To backup the Klipper configuration folder
+  - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
 
 <br />
