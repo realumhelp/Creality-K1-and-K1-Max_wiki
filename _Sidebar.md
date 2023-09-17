@@ -5,12 +5,11 @@
 > **• [Wiki Changelog](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Wiki-Changelog)** <br />
 ## Installation / Restoration
 > **• [Install Rooted Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Rooted-Firmware)** <br />
-> **• [Restore Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-Firmware)** <br />
-## Improvements
-> **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
+> **• [Restore previous Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-previous-Firmware)** <br />
 > **• [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
-## Calibrations
+> **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
+## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
 > **• [Calibrate Extruder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Calibrate-Extruder)** <br />
 > **• [Improve Bed Mesh](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Bed-Mesh)** <br />
