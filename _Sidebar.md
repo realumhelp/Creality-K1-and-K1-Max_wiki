@@ -12,6 +12,7 @@
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
 > **• [Access to Web Interface](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Access-to-Web-Interface)** <br />
 > **• [Configure Camera](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Configure-Camera)** <br />
+> **• [Use Timelapse](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Timelapse)** <br />
 ## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
 > **• [Calibrate Extruder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Calibrate-Extruder)** <br />
