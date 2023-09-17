@@ -8,7 +8,10 @@
 > **• [Restore to previous Firmware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-to-previous-Firmware)** <br />
 > **• [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script)** <br />
 > **• [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware)** <br />
+## Configuration / Use
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
+> **• [Access to Web Interface](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Access-to-Web-Interface)** <br />
+> **• [Configure Camera](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Configure-Camera)** <br />
 ## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
 > **• [Calibrate Extruder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Calibrate-Extruder)** <br />
