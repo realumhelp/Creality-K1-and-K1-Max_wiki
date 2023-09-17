@@ -1,7 +1,7 @@
 Here you can find the different location of some files. Connect in SSH to access it.
 
 
-#### Recorded Crealty Timelapse video files:
+#### Recorded Creality Timelapse video files:
 
   ```
   /usr/data/creality/userdata/delay_image/video/
