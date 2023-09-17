@@ -15,3 +15,5 @@
 - To access to the original Mainsail Web Interface, just use your printer's IP address with port 4409 in your Web browser such as: `http://xxx.xxx.xxx.xxx:4409/` (replacing xxx.xxx.xxx.xxx by your local IP address).
 
   <img width="2500" alt="Sans titre-1 copie" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/cc4611c8-e3da-45f2-b215-20fa32e5526c">
+
+<br />
