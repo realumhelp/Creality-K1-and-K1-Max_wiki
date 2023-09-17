@@ -37,7 +37,10 @@ Here are the tests that demonstrate this:
 
 ## How to fix that
 
-- On original Fluidd Web Interface go to `Configuration` and open `gcode_macro.cfg` file.
+- Open `gcode_macro.cfg` file:
+
+   - On original Fluidd Web Interface go to `Configuration` icon on the left side.
+   - On original Mainsail Web Interface go to `Machine` tab on the left side.
 
 - Search macro named `[gcode_macro AUTOTUNE_SHAPERS]` and comment line `variable_autotune_shapers: 'ei'` like that:
 
