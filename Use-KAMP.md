@@ -4,6 +4,8 @@ Since the mesh area will be smaller, the mesh can be much more dense. Imagine ma
 
 KAMP also works if prints are started directly through the printer screen by checking the `Calibration` box before starting printing.
 
+More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
+
 <br />
 
 **<u>Note:</u> This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
