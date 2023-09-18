@@ -34,11 +34,15 @@ KAMP also works if prints are started directly through the printer screen by che
   enable_object_processing: True
   ```
 
--  Then, open `printer.cfg` file and add this line to enable KAMP:
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
+- Open `printer.cfg` file and add this line to enable KAMP:
 
     ```
     [include KAMP_Settings.cfg]
     ```
+
+- Then, click on `SAVE AND RESTART` button in the top right corner.
 
 - You can now open `KAMP_Settings.cfg` file and enable **Adaptive Meshing** by removing `#` like this:
 
@@ -49,9 +53,13 @@ KAMP also works if prints are started directly through the printer screen by che
   # [include ./KAMP/Smart_Park.cfg]             # Include to enable the Smart Park function, which parks the printhead near the print area for final heating.
   ```
 
-  ⚠ **Other features as they do not work properly due to macros embedded in firmware. If you want to enable Line Purging and Smart Park functions, see Extras section**
+  ⚠ **Other features don't work properly due to `CX_PRINT_DRAW_ONE_LINE` macro embedded in firmware.**
+    
+    **If you also want to activate the Line Purge and Smart Park functions, see the next section.**
 
-- Then open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and disable `CX_PRINT_LEVELING_CALIBRATION` command by adding a `#` and add `BED_MESH_CLEAR` and `BED_MESH_CALIBRATE` commands like this: 
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
+- Open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and disable `CX_PRINT_LEVELING_CALIBRATION` command by adding a `#` and add `BED_MESH_CLEAR` and `BED_MESH_CALIBRATE` commands like this: 
 
   ```
   [gcode_macro START_PRINT]
@@ -85,6 +93,8 @@ KAMP also works if prints are started directly through the printer screen by che
     CX_PRINT_DRAW_ONE_LINE
   ```
 
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
 - Open `moonraker.conf` file and enable this lines by removing `#` before like this (or add this lines if you don't have them):
 
   ```
@@ -97,6 +107,80 @@ KAMP also works if prints are started directly through the printer screen by che
   primary_branch: main
   ```
 
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
 - Also make sure `Label Objects` setting is enabled in your slicer.
+
+- It's done. You have now **Adaptive Meshing** when printing starting.
+
+<br />
+
+## Enable Line Purging and Smart Park functions
+
+- Open `KAMP_Settings.cfg` file and configure it like this:
+
+  <img width="900" alt="Capture d’écran 2023-09-18 à 02 21 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b18f6118-7a9f-4b67-9c34-8cebc6ef57a5">
+
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
+- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)).
+
+- On the left panel, in File Manager go to this folder:
+
+  ```
+  /usr/share/klipper/klippy/extras/
+  ```
+
+- Then right click on `custom_macro.py` file and click on `Open with default text editor`:
+
+  <img width="900" alt="Capture d’écran 2023-09-18 à 02 24 06" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0503fd2a-f020-43d9-bc07-85d29c6b767d">
+
+- Replace existing `cmd_CX_PRINT_DRAW_ONE_LINE_help` command by this one:
+
+  ```
+  cmd_CX_PRINT_DRAW_ONE_LINE_help = "Draw one line before printing"
+  def cmd_CX_PRINT_DRAW_ONE_LINE(self, gcmd):
+    self.gcode.run_script_from_command('M83')
+    self.gcode.run_script_from_command('SMART_PARK')
+    self.gcode.run_script_from_command('G91')
+    self.gcode.run_script_from_command('G1 Y-10 F600')
+    self.gcode.run_script_from_command('G90')
+    self.gcode.run_script_from_command('G1 Z0.8 F600')
+    self.pheaters = self.printer.lookup_object('heaters')
+    self.heater_hot = self.printer.lookup_object('extruder').heater
+    self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+    self.gcode.run_script_from_command('M104 S%d' % (self.extruder_temp))
+    self.gcode.run_script_from_command('M140 S%d' % (self.bed_temp))
+    self.pheaters.set_temperature(self.heater_hot, self.extruder_temp, True)
+    self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+    while self.pheaters.can_break_flag == 1:
+       time.sleep(1)
+    self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+    if self.pheaters.can_break_flag == 3:
+        self.pheaters.can_break_flag = 0
+        self.gcode.respond_info("can_break_flag is 3")
+        self.gcode.run_script_from_command('M220 S100')
+        self.gcode.run_script_from_command('M221 S100')
+        self.gcode.run_script_from_command('LINE_PURGE')
+    pass
+  ```
+
+  <img width="900" alt="Capture d’écran 2023-09-18 à 02 24 32" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2dc7e40d-70b0-4202-8153-c523580105ee">
+
+- Then click on `Save file` icon:
+
+  <img width="900" alt="Capture d’écran 2023-09-18 à 02 59 40" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/ba26eae9-004a-4dd7-b101-e91045760310">
+
+- And click on `Yes` button to save file:
+
+  <img width="600" alt="Capture d’écran 2023-09-18 à 03 00 26" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/57eb5d05-dcba-429e-8f45-0b5e3638b813">
+
+- When it's done, on the right panel, in SSH command prompt window enter this command to restart Klipper service:
+
+  ```
+  /etc/init.d/S55klipper_service restart
+  ```
+
+- It's done. You have now **Adaptive Meshing** when printing starting, the hotend which is parked next to the printing area during heating and the optimized purge line next to the printing area.
 
 <br />
