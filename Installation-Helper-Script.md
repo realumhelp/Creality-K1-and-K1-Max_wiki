@@ -12,6 +12,8 @@ With this guide and my script you can install latest official builds.
 
 If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first using `[Remove Menu]`.
 
+- Connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)).
+
 - Enter the following command to install script in `/root` folder:
 
   ```
