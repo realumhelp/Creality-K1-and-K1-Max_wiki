@@ -21,7 +21,7 @@
 > **• [Calibrate Extruder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Calibrate-Extruder)** <br />
 > **• [Useful Macros](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Macros)** <br />
 ## Others
-> **• [Motherboard Layout](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Motherboard-Layout)** <br />
+> **• [Boards Layout](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Boards-Layout)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
