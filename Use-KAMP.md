@@ -49,7 +49,7 @@ KAMP also works if prints are started directly through the printer screen by che
   # [include ./KAMP/Smart_Park.cfg]             # Include to enable the Smart Park function, which parks the printhead near the print area for final heating.
   ```
 
-  ⚠ **Do not enable other features as they do not work properly due to macros embedded in firmware.**
+  ⚠ **Other features as they do not work properly due to macros embedded in firmware. If you want to enable Line Purging and Smart Park functions, see Extras section**
 
 - Then open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and disable `CX_PRINT_LEVELING_CALIBRATION` command by adding a `#` and add `BED_MESH_CLEAR` and `BED_MESH_CALIBRATE` commands like this: 
 
