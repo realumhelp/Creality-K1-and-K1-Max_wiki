@@ -1,5 +1,6 @@
 **18/09/2023**
 - Updated [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
+- Updated script to v1.6 to install/remove Hostname Service.
 
 **17/09/2023**
 - Updated script to v1.5 to install/remove Moonraker Timelapse.
