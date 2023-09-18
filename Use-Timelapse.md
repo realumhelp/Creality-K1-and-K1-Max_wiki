@@ -14,7 +14,7 @@ This process installs a version of Timelapse compatible with K1 Series.
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Moonraker Timelapse`:
 
-  <img width="900" alt="Capture d’écran 2023-09-17 à 01 22 37" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c75ef09d-28a0-4714-bda6-b8b3a5fda4ab">
+  <img width="900" alt="Capture d’écran 2023-09-18 à 23 14 51" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/1e915a43-8f70-4142-88b7-b27727034f72">
 
 <br />
 
