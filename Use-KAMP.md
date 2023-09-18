@@ -16,7 +16,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Make sure you have followed this [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script) section before.
 
-- In the script, enter in `[Install Menu]` by typing `7` and validate with `Enter` and install `Klipper Adaptive Meshing & Purging`:
+- In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Klipper Adaptive Meshing & Purging`:
 
   <img width="900" alt="Capture d’écran 2023-09-18 à 23 14 51" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/ca710b1d-ac38-460a-99d3-6b31fbb5ee90">
 
