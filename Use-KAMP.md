@@ -167,6 +167,8 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
     pass
   ```
 
+  ⚠ **Be careful to respect the indentation of the file.**
+
   <img width="900" alt="Capture d’écran 2023-09-18 à 02 24 32" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2dc7e40d-70b0-4202-8153-c523580105ee">
 
 - Then click on `Save file` icon:
