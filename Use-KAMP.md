@@ -188,3 +188,54 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 - It's done. You have now **Adaptive Meshing** when printing starting, the hotend which is parked next to the printing area during heating and the optimized purge line next to the printing area.
 
 <br />
+
+<u>Note:</u> This is the original `cmd_CX_PRINT_DRAW_ONE_LINE_help` command if you need to restore it.
+
+  ```
+  cmd_CX_PRINT_DRAW_ONE_LINE_help = "Draw one line before printing"
+  def cmd_CX_PRINT_DRAW_ONE_LINE(self, gcmd):
+      self.gcode.run_script_from_command('M83')
+      self.gcode.run_script_from_command('G1 X10 Y10 Z2 F6000')
+      self.gcode.run_script_from_command('G1 Z0.1 F600')
+      self.pheaters = self.printer.lookup_object('heaters')
+      self.heater_hot = self.printer.lookup_object('extruder').heater
+      self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+      self.gcode.run_script_from_command('M104 S%d' % (self.extruder_temp))
+      self.gcode.run_script_from_command('M140 S%d' % (self.bed_temp))
+      self.pheaters.set_temperature(self.heater_hot, self.extruder_temp, True)
+      self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+      while self.pheaters.can_break_flag == 1:
+          time.sleep(1)
+      self.gcode.respond_info("can_break_flag = %d" % (self.pheaters.can_break_flag))
+      if self.pheaters.can_break_flag == 3:
+          self.pheaters.can_break_flag = 0
+          self.gcode.respond_info("can_break_flag is 3")
+          self.gcode.run_script_from_command('G21')
+          self.gcode.run_script_from_command('G1 F2400 E-0.5')
+          self.gcode.run_script_from_command('SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=5')
+          self.gcode.run_script_from_command('M204 S12000')
+          self.gcode.run_script_from_command('G21')
+          self.gcode.run_script_from_command('SET_VELOCITY_LIMIT ACCEL_TO_DECEL=6000')
+          # self.gcode.run_script_from_command('SET_PRESSURE_ADVANCE ADVANCE=0.04')
+          # self.gcode.run_script_from_command('SET_PRESSURE_ADVANCE SMOOTH_TIME=0.04')
+          self.gcode.run_script_from_command('M220 S100')
+          self.gcode.run_script_from_command('M221 S100')
+          self.gcode.run_script_from_command('G1 Z2.0 F1200')
+          self.gcode.run_script_from_command('G1 X0.1 Y20 Z0.3 F6000.0')
+          self.gcode.run_script_from_command('G1 X0.1 Y180.0 Z0.3 F3000.0 E10.0')
+          self.gcode.run_script_from_command('G1 X0.4 Y180.0 Z0.3 F3000.0')
+          self.gcode.run_script_from_command('G1 X0.4 Y20.0 Z0.3 F3000.0 E10.0')
+          self.gcode.run_script_from_command('G1 Y10.0 F3000.0')
+          self.gcode.run_script_from_command('G1 Z2.0 F600.0')
+          self.gcode.run_script_from_command('G1 Z0.3 F600.0')
+          self.gcode.run_script_from_command('G1 Z2.0 F600.0')
+          # self.gcode.run_script_from_command('G1 X0.4 Y10.0 Z0.3 F6000.0')
+          self.gcode.run_script_from_command('M82')
+          self.gcode.run_script_from_command('G92 E0')
+          # self.gcode.run_script_from_command('G1 Z2.0 F600')
+          self.gcode.run_script_from_command('G1 F12000')
+          self.gcode.run_script_from_command('G21')
+      pass
+  ```
+
+<br />
