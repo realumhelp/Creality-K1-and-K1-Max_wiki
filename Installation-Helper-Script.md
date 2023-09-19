@@ -8,6 +8,10 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
+⚠ **ONLY USE THIS SCRIPT WITH FIRMWARE 1.3.2.1 AND ABOVE!**
+
+<br />
+
 ## Install 'Installation Helper Script'
 
 If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first using `[Remove Menu]`.
