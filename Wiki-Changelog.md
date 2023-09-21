@@ -1,3 +1,6 @@
+**21/09/2023**
+- Updated script to v1.7 to install Custom Boot Display and restore stock one.
+
 **18/09/2023**
 - Updated [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
 - Updated script to v1.6 to install/remove Hostname Service and add user confirmation before install/remove.
