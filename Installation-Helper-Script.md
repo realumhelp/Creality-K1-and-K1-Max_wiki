@@ -52,6 +52,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
   - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)
   - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
+  - `Install Custom Boot Display` -> To install a Custom Boot Display
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
@@ -59,6 +60,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
   - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
   - `Remove Hostname Service file` -> To remove Hostname Service file
+  - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
   - `Backup configuration files` -> To backup the Klipper configuration folder
   - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
