@@ -115,7 +115,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - It's done. You have now **Adaptive Meshing** when printing starting.
 
-  ⚠ **In some cases, printing may fail to start with some large models. To get around this, you can either try to start printing from the screen rather than via the Web interface.**
+⚠ **In some cases, printing may fail to start with some large models. To get around this, you can either try to start printing from the screen rather than via the Web interface.**
 
 <br />
 
