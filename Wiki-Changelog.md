@@ -1,5 +1,5 @@
 **22/09/2023**
-- Moonraker.tar file updated to allow uploading files larger than 98MB to Web Interface (The /tmp folder used by Moonraker has a size of 98.1M, it has been moved to the /usr/data/moonraker/tmp folder).
+- Moonraker.tar file updated to allow uploading files larger than 98MB to Web Interface (The /tmp folder used by Moonraker has a size of 98.1M, it has been moved to the /usr/data/moonraker/tmp folder). Please remove and reinstall Moonraker from Helper Script.
 
 **21/09/2023**
 - Updated script to v1.7 to install Custom Boot Display and restore stock one.
