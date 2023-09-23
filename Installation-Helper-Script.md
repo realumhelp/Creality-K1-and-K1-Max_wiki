@@ -12,6 +12,8 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
+**Current script version:** v1.8
+
 ## Install 'Installation Helper Script'
 
 If you have already installed Moonraker, Fluidd or Mainsail provided by Creality, please uninstall them first using `[Remove Menu]`.
