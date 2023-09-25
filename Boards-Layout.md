@@ -4,7 +4,7 @@
 
 ## Motherboard Pinout
 
-<img width="1090" alt="Pin_Layout" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/54244ef2-ab8e-4091-82aa-0352dd9b83c7">
+![Pin_Layout](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/685e6ed8-4679-4e40-9360-42f975c7d467)
 
 ## Hotend Layout
 
