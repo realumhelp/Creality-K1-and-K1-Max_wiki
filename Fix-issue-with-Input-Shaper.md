@@ -50,7 +50,28 @@ Here are the tests that demonstrate this:
   gcode:
   ```
 
-- Add this macro at the bottom of the file:
+- Search macro named `[gcode_macro INPUTSHAPER]` and replace line `SHAPER_CALIBRATE AXIS=y` by `SHAPER_CALIBRATE` like this:
+
+  ```
+  [gcode_macro INPUTSHAPER]
+  gcode:
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+  G90
+  G28
+  {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
+  {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
+  G1 X{POSITION_X} Y{POSITION_Y} F6000
+  G1 Z10 F600
+  SHAPER_CALIBRATE
+  CXSAVE_CONFIG
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+  ```
+
+  This allows that if the resonance test is launched by the printer that the fix is also applied.
+
+- Add this macro at the bottom of the file to run resonance test manually:
 
   ```
   [gcode_macro INPUT_SHAPER]
