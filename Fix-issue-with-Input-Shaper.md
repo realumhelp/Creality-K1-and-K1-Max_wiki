@@ -50,89 +50,31 @@ Here are the tests that demonstrate this:
   gcode:
   ```
 
-- Add this macros at the bottom of the file:
+- Add this macro at the bottom of the file:
 
   ```
-  [gcode_macro INPUT_SHAPPER_X]
-  description: Measure X axis resonances
+  [gcode_macro INPUT_SHAPER]
+  description: Measure X and Y axis resonances
   gcode:
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
     G90
     {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
+      G28
     {% endif %}
-    {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
-    {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
-    G1 X{POSITION_X} Y{POSITION_Y} F6000
-    G1 Z10 F600
-    SHAPER_CALIBRATE AXIS=X
+    SHAPER_CALIBRATE
     {% set y_park = printer.toolhead.axis_maximum.y/2 %}
     {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
     G1 X{x_park} Y{y_park} F20000
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
     M84
-
-
-  [gcode_macro INPUT_SHAPPER_Y]
-  description: Measure Y axis resonances
-  gcode:
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-    G90
-    {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-    {% endif %}
-    {% set POSITION_X = printer.configfile.settings['stepper_x'].position_max/2 %}
-    {% set POSITION_Y = printer.configfile.settings['stepper_y'].position_max/2 %}
-    G1 X{POSITION_X} Y{POSITION_Y} F6000
-    G1 Z10 F600
-    SHAPER_CALIBRATE AXIS=Y
-    {% set y_park = printer.toolhead.axis_maximum.y/2 %}
-    {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
-    G1 X{x_park} Y{y_park} F20000
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    M84
-  ```
-
-  <u>Note:</u> Some K1 printers don't have `filament_sensor_2`, so you can remove this lines of the macros above:
-
-  ```
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-
-    SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
-- Now run `INPUT_SHAPPER_Y` macro, this will measure the Y axis resonances.
-
-- This is the result for Y axis:
-
-  <img width="900" alt="Capture d’écran 2023-08-04 à 13 55 33" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b706605a-a579-4605-bb46-01b55eb3d6a3">
-
-  And the result in the `printer.cfg` file:
-
-  <img width="679" alt="Capture d’écran 2023-08-04 à 13 56 33" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b1940959-4205-4e33-885b-5527dd9d01f6">
-
-- Then, run `INPUT_SHAPPER_X` macro, this will measure the X axis resonances.
-
-- This is the result for X axis:
-
-  <img width="850" alt="Capture d’écran 2023-08-04 à 14 02 54" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/e521de26-377b-4213-bcdd-9630024a19ff">
-
-  And the result in the `printer.cfg` file:
-
-  <img width="679" alt="Capture d’écran 2023-08-04 à 14 03 42" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0292e301-94be-4206-9619-8accc2a4f627">
-
-- Performing the Y axis resonance test first avoids overwriting the X axis result.
+- Now run `INPUT_SHAPPER` macro, this will measure the X and Y axis resonances.
 
 - Remember to save the new recorded values with the following command in Console:
 
   ```
-    SAVE_CONFIG
+  SAVE_CONFIG
   ```
 
 <br />
