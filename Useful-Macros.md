@@ -2,21 +2,6 @@ Here you can fin useful macros can be used. Copy them in `gcode_macro.cfg` file.
 
 <br />
 
-<u>Note:</u> Some K1 don't have a second filament sensor defined. If you encounter this error when running some macros:
-
-**!! {"code":"key69", "msg": "The value 'filament_sensor_2' is not valid for SENSOR", "values": ["filament_sensor_2", "SENSOR"]}**
-
-Just remove or comment this lines in all macros:
-  ```  
-  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-  ```
-and
-  ```
-  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-  ```
-
-<br />
-
 ## Input Shaper
 
 This macros are already mentioned in [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper) section.
@@ -130,6 +115,21 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   You can define some parameters for Bed Leveling like Hotend and Bed temperatures or Probe count:
 
   <img width="600" alt="Capture d’écran 2023-09-02 à 16 27 28" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c4a7a4c6-e443-44cd-b78b-6b2d964a5c88">
+
+<br /><br />
+
+  <u>Note:</u> Some K1 don't have a second filament sensor defined. If you encounter this error when running some macros:
+
+**!! {"code":"key69", "msg": "The value 'filament_sensor_2' is not valid for SENSOR", "values": ["filament_sensor_2", "SENSOR"]}**
+
+Just remove or comment this lines:
+  ```  
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+  ```
+and
+  ```
+  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+  ```
 
 <br /><br />
 
