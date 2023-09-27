@@ -6,3 +6,4 @@ Special Thanks to:
 - [JSTECH](https://www.youtube.com/@Jstech3d) for providing some firmwares.
 - [Henlor](https://www.printables.com/model/537623-creality-build-plate-models-and-textures) for build plates stl models for OrcaSlicer.
 - [Tam Anderson](https://www.facebook.com/groups/557442779831567/user/1603433384) for Custom Boot Display for K1 and K1 Max.
+- [Tom Tomich](https://github.com/Tombraider2006) for somes macros.
