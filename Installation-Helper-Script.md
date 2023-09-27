@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v1.8
+**Current script version:** v1.9
 
 ## Install 'Installation Helper Script'
 
