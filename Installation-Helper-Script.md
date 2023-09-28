@@ -55,7 +55,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)
   - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
   - `Install Custom Boot Display` -> To install a Custom Boot Display
-  - `Install Buzzer Support files` -> To install Buzzer Support files needed to use motherboard buzzer
+  - `Install Buzzer Support files` -> To install Buzzer Support files needed to use motherboard buzzer (more info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer))
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
