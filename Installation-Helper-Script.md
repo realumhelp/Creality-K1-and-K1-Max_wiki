@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v1.9
+**Current script version:** v2.0
 
 ## Install 'Installation Helper Script'
 
@@ -55,6 +55,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)
   - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
   - `Install Custom Boot Display` -> To install a Custom Boot Display
+  - `Install Buzzer Support files` -> To install Buzzer Support files needed to use motherboard buzzer
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
@@ -63,6 +64,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
   - `Remove Hostname Service file` -> To remove Hostname Service file
   - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
+  - `Remove Buzzer Support files` -> To remove Buzzer Support files
   - `Backup configuration files` -> To backup the Klipper configuration folder
   - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
