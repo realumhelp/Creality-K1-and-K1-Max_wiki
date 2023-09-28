@@ -1,5 +1,6 @@
 **28/09/2023**
 - Updated script to v1.9 to remove TLS certificate validation when downloading files.
+- Updated script to v2.0 to add support for motherboard buzzer.
 
 **23/09/2023**
 - Updated Custom Boot Display for K1.
