@@ -14,7 +14,7 @@ Installing Entware allows packages to be added to your printer to perform new ta
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Entware`:
 
-  <img width="900" alt="Capture d’écran 2023-09-17 à 01 22 37" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c75ef09d-28a0-4714-bda6-b8b3a5fda4ab">
+  <img width="900" alt="Capture d’écran 2023-09-28 à 22 22 57" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/80912aec-e9a5-4cac-b7bf-0f5890af88b5">
 
 
 - When it's done, log out of the current SSH session and log in again.
