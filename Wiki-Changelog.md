@@ -1,6 +1,7 @@
 **28/09/2023**
 - Updated script to v1.9 to remove TLS certificate validation when downloading files.
 - Updated script to v2.0 to add support for motherboard buzzer.
+- Added new [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer) section.
 
 **23/09/2023**
 - Updated Custom Boot Display for K1.
