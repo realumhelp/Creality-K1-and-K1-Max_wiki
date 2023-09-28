@@ -1,4 +1,4 @@
-It's possible to use the buzzer integrated into the motherboard.
+It's possible to use the buzzer integrated into the motherboard to play a sound during certain actions.
 
 <br />
 
