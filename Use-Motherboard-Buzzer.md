@@ -42,7 +42,7 @@ It's possible to use the buzzer integrated into the motherboard to play a sound 
 
 - Test the buzzer and make sure you hear the sound by running the `BEEP` macro.
 
-- You can now use `BEEP` command where you want in macros to make a sound.
+- You can now use `BEEP` command where you want in macros to play a sound.
 
   Here is an example to play a sound when printing is complete:
 
