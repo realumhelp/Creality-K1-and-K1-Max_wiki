@@ -90,7 +90,7 @@ Here are the tests that demonstrate this:
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
-- Now run `INPUT_SHAPPER` macro, this will measure the X and Y axis resonances.
+- Now run `INPUT_SHAPER` macro, this will measure the X and Y axis resonances.
 
 - Remember to save the new recorded values with the following command in Console:
 
