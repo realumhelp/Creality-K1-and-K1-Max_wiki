@@ -82,13 +82,15 @@ It's possible to trigger the back fan depending on the chamber temperature.
   description: Set Chamber Temperature with slicers
   gcode:
     SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={params.S|default(35)}
-
-  [gcode_macro CHAMBER_TEMP]
-  description: Set Chamber Temperature
-  gcode:
-    SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={params.CHAMBER_TEMP|default(35)}
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
+
+- You can now change the chamber fan trigger temperature here:
+
+  <img width="700" alt="Capture d’écran 2023-09-29 à 12 18 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/1159f580-00ef-4b1b-a8e4-a009852e57a4">
+
+- You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 C°)
+
 
 <br />
