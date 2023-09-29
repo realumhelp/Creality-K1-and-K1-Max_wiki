@@ -2,11 +2,15 @@ Here you can find different tips to improve fans control.
 
 <br />
 
+**<u>Note:</u> This procedures must be repeated if you update the firmware or if you restore the printer to default settings.**
+
+<br />
+
 ## Improve hotend cooling at the end of printing
 
 By default at the end of a print, the hotend is cooled by its fan which runs at 100%.
 
-By making this change, the hotend fan speed will be reduced to 80% and the radial fan will also be enabled at 80%. This allows faster and quieter cooling.
+By making this change, the hotend fan speed will be reduced to 80% and the side fan will also be enabled at 80%. This allows faster and quieter cooling.
 
 <br />
 
@@ -91,6 +95,37 @@ It's possible to trigger the back fan depending on the chamber temperature.
   <img width="700" alt="Capture d’écran 2023-09-29 à 12 18 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/1159f580-00ef-4b1b-a8e4-a009852e57a4">
 
 - You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 °C).
+
+<br />
+
+## Control fans when cleaning the nozzle
+
+It's possible to control hotend and side fans during nozzle cleaning process. This allows quieter cooling.
+
+<br />
+
+- Make sure you have followed this [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script) section before.
+
+- In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Nozzle Cleaning Fan Control files`:
+
+
+-  Open `printer.cfg` file:
+
+   - On original Fluidd Web Interface go to `Configuration` icon on the left side.
+   - On original Mainsail Web Interface go to `Machine` tab on the left side.
+
+- And add this lines:
+
+  ```
+  [prtouch_v2_fan]
+  max_speed: 0.4
+  ```
+
+  <u>Note:</u> You can change the `max_speed` value knowing that the max value is 1.0 (which corresponds to a speed of 100%).
+
+- Then, click on `SAVE & RESTART` button in the top right corner.
+
+- During the nozzle cleaning process, the fans will now operate at the defined value.
 
 
 <br />
