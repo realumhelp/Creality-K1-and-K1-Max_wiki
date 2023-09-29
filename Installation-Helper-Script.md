@@ -56,6 +56,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
   - `Install Custom Boot Display` -> To install a Custom Boot Display
   - `Install Buzzer Support files` -> To install files needed to use motherboard buzzer (more info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer))
+  - `Install Nozzle Cleaning Fan Control files` -> To install files needed to control fans during nozzle cleaning (more info in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control))
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
@@ -65,6 +66,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Hostname Service file` -> To remove Hostname Service file
   - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
   - `Remove Buzzer Support files` -> To remove Buzzer Support files
+  - `Remove Nozzle Cleaning Fan Control files` -> To remove Nozzle Cleaning Fan Control files
   - `Backup configuration files` -> To backup the Klipper configuration folder
   - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
