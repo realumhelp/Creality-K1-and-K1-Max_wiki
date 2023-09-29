@@ -109,7 +109,7 @@ It's possible to control hotend and side fans during nozzle cleaning process. Th
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Nozzle Cleaning Fan Control files`:
 
 
--  Open `printer.cfg` file:
+-  Open `printer_params.cfg` file:
 
    - On original Fluidd Web Interface go to `Configuration` icon on the left side.
    - On original Mainsail Web Interface go to `Machine` tab on the left side.
