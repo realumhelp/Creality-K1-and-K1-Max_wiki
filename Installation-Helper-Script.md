@@ -23,13 +23,13 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 - Enter the following command to install script in `/root` folder:
 
   ```
-  cd && wget --no-check-certificate https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
+  cd && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
   ```
 
   <u>Note:</u> To update the script when a new version is available, enter this command:
 
   ```
-  cd && rm -rf /root/installer.sh && wget --no-check-certificate https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/Scripts/installer.sh
+  cd && rm -rf /root/installer.sh && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
   ```
 
 - And enter this command to run the script:
