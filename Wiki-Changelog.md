@@ -1,5 +1,7 @@
 **29/09/2023**
 - Fixed "TLS error from peer" in script (thanks to [MuaiyadTSB](https://github.com/MuaiyadTSB)).
+- Updated script to v2.1 to allow control fans when cleaning the nozzle.
+- Added new [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
 
 **28/09/2023**
 - Updated script to v1.9 to remove TLS certificate validation when downloading files.
