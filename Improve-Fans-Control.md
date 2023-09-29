@@ -90,7 +90,7 @@ It's possible to trigger the back fan depending on the chamber temperature.
 
   <img width="700" alt="Capture d’écran 2023-09-29 à 12 18 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/1159f580-00ef-4b1b-a8e4-a009852e57a4">
 
-- You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 C°)
+- You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 C°).
 
 
 <br />
