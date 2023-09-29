@@ -1,3 +1,6 @@
+**29/09/2023**
+- Fixed "TLS error from peer" in script (thanks to [MuaiyadTSB](https://github.com/MuaiyadTSB)).
+
 **28/09/2023**
 - Updated script to v1.9 to remove TLS certificate validation when downloading files.
 - Updated script to v2.0 to add support for motherboard buzzer.
