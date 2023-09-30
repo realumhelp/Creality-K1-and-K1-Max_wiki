@@ -39,7 +39,7 @@ Installing Entware allows packages to be added to your printer to perform new ta
   opkg remove <packagename>
   ```
 
-- If you want to check available updates from your packages, enter this this commands (one by one):
+- If you want to check available updates from your packages, enter this commands (one by one):
 
   ```
   opkg update
