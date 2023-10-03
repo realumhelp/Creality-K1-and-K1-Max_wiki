@@ -1,7 +1,7 @@
 **02/10/2023**
 - Updated script to v2.2:
   - Improved script code.
-  - Added fix for KAMP mesh issue (please remove and reinstall it).
+  - Added fix for KAMP mesh issue (please remove and reinstall it) and not needed anymore to edit manually custom_macro.py file.
   - Added informations menu to know what is installed or not.
   - Other fixes.
 
