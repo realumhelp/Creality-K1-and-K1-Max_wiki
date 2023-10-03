@@ -1,3 +1,10 @@
+**02/10/2023**
+- Updated script to v2.2:
+  - Improved script code.
+  - Added fix for KAMP mesh issue (please remove and reinstall it).
+  - Added informations menu to know what is installed or not.
+  - Other fixes.
+
 **29/09/2023**
 - Fixed "TLS error from peer" in script (thanks to [MuaiyadTSB](https://github.com/MuaiyadTSB)).
 - Updated script to v2.1 to allow control fans when cleaning the nozzle.
