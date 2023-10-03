@@ -8,7 +8,7 @@ Changing the hostname can be useful if you have multiple K1 printers to give the
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Hostname Service file`:
 
-  <img width="900" alt="Capture d’écran 2023-09-29 à 22 07 08" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/d3c433e5-532c-4e67-abfb-ab53ac4df3ce">
+  <img width="900" alt="Capture d’écran 2023-10-04 à 00 47 54" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/07001d68-0df0-4ec1-be67-e7342ce8282b">
 
 <br />
 
