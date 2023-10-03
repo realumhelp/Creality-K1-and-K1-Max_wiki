@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v2.1
+**Current script version:** v2.2
 
 ## Install 'Installation Helper Script'
 
@@ -40,7 +40,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-09-23 à 12 11 43" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a0ea2059-802b-4c20-ab84-e62a4a4196e9">
+  <img width="900" alt="Capture d’écran 2023-10-04 à 00 47 54" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/07001d68-0df0-4ec1-be67-e7342ce8282b">
 
 <br />
 
