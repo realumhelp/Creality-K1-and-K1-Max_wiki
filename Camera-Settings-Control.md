@@ -62,7 +62,7 @@ It's possible to control camera settings with macros.
     CAM_EXPOSURE_AUTO_PRIORITY EXPOSURE_AUTO_PRIORITY=0
   ```
 
-  <u>Note:</u> Here all macros are configured with their default value, you can remove unmodified ones.
+  <u>Note:</u> Here all macros are configured with their default value, you can remove unmodified ones if they don't need to be loaded when Klipper starts.
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
