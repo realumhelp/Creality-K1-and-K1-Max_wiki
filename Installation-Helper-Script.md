@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v2.2
+**Current script version:** v2.3
 
 ## Install 'Installation Helper Script'
 
@@ -40,7 +40,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-10-04 à 00 47 54" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/07001d68-0df0-4ec1-be67-e7342ce8282b">
+  <img width="900" alt="Capture d’écran 2023-10-04 à 23 40 38" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f37e463e-5167-44e7-bd00-d9f82fa77a73">
 
 <br />
 
@@ -57,6 +57,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Custom Boot Display` -> To install a Custom Boot Display
   - `Install Buzzer Support files` -> To install files needed to use motherboard buzzer (more info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer))
   - `Install Nozzle Cleaning Fan Control files` -> To install files needed to control fans during nozzle cleaning (more info in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control))
+  - `Install Camera settings Control files` -> To install macros needed to control camera setting (more info in [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control))
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
@@ -67,6 +68,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
   - `Remove Buzzer Support files` -> To remove Buzzer Support files
   - `Remove Nozzle Cleaning Fan Control files` -> To remove Nozzle Cleaning Fan Control files
+  - `Remove Camera Settings Control files` -> To remove Camera Settings Control files
   - `Backup configuration files` -> To backup the Klipper configuration folder
   - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
