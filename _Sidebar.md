@@ -15,6 +15,7 @@
 > **• [Use Timelapse](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Timelapse)** <br />
 > **• [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP)** <br />
 > **• [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer)** <br />
+> **• [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control)** <br />
 > **• [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname)** <br />
 ## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
