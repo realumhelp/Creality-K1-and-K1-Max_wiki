@@ -8,3 +8,4 @@ Special Thanks to:
 - [Tam Anderson](https://www.facebook.com/groups/557442779831567/user/1603433384) for Custom Boot Display for K1 and K1 Max.
 - [Tom Tomich](https://github.com/Tombraider2006) for somes macros.
 - [PA3GMT](https://github.com/PA3GMT) for fix for KAMP.
+- [victornpb](https://github.com/victornpb) for v4l2-ctl commands.
