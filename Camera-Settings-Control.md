@@ -40,7 +40,7 @@ It's possible to control camera settings with macros.
 
   <img width="900" alt="Capture d’écran 2023-10-04 à 23 48 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b470aa7a-1d72-47bb-bd20-89a55e4abd68">
 
-- When restarting the printer your camera settings will not be preserved, to correct this open `camera-settings.cfg` and add this lines:
+- When restarting the printer your camera settings will not be preserved, to correct this open `camera-settings.cfg` and add this lines by modifying the desired values:
 
   ```
   [delayed_gcode LOAD_CAM_SETTINGS]
