@@ -1,3 +1,7 @@
+**05/10/2023**
+- Updated script to v2.3 to allow to control camera settings.
+- Added new [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control) section.
+
 **02/10/2023**
 - Updated script to v2.2:
   - Improved script code.
