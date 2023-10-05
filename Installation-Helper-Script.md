@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v2.3
+**Current script version:** v2.4
 
 ## Install 'Installation Helper Script'
 
@@ -61,6 +61,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Fluidd` -> To remove Fluidd
   - `Remove Mainsail` -> To remove Mainsail
   - `Remove Moonraker Timelapse` -> To remove Timelapse
+  - `Remove Entware` -> To remove Entware and all installed packages
   - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
   - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
   - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
