@@ -74,3 +74,22 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
 
 <br />
+
+In case you get this kind of error while installing some packages:
+
+  ```
+  Connecting to github.com (20.248.137.48:443)
+  wget: TLS error from peer (alert code 80): 80
+  wget: error getting response: Connection reset by peer
+  Download failed. Exit code: 1
+  ```
+  
+  - Install Entware by following this [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section.
+
+  - Once installed, in SSH command prompt, enter this command:
+
+    ```
+    opkg install wget-ssl
+    ```
+
+<br />
