@@ -1,3 +1,6 @@
+**06/10/2023**
+- Updated script to v2.4 to allow to remove Entware and all installed packages.
+
 **05/10/2023**
 - Updated script to v2.3 to allow to control camera settings.
 - Added new [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control) section.
