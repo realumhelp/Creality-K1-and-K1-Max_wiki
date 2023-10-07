@@ -1,6 +1,6 @@
 **07/10/2023**
 - Updated script to v2.5:
-  - Simplified KAMP installation.
+  - Simplified KAMP installation. Updated [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
   - Klipper Gcode Shell Command can now be installed alone.
 
 **06/10/2023**
