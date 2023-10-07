@@ -80,6 +80,12 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
     CX_PRINT_DRAW_ONE_LINE
   ```
 
+  <u>Note:</u> In case you do not use acceleration values defined in your slicer, it's necessary to add this command after the line `CX_PRINT_DRAW_ONE_LINE`:
+
+  ```
+  SET_VELOCITY_LIMIT ACCEL={printer.configfile.settings.printer.max_accel}
+  ```
+
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
 - Also make sure `Label Objects` setting is enabled in your slicer.
