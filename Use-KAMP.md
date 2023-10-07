@@ -46,21 +46,6 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
-- You can now open `KAMP_Settings.cfg` file and enable **Adaptive Meshing** by removing `#` like this:
-
-  ```
-  [include ./KAMP/Adaptive_Meshing.cfg]       # Include to enable adaptive meshing configuration.
-  # [include ./KAMP/Line_Purge.cfg]             # Include to enable adaptive line purging configuration.
-  # [include ./KAMP/Voron_Purge.cfg]            # Include to enable adaptive Voron logo purging configuration.
-  # [include ./KAMP/Smart_Park.cfg]             # Include to enable the Smart Park function, which parks the printhead near the print area for final heating.
-  ```
-
-
-    
-    **If you also want to activate the Line Purge and Smart Park functions, see the next section.**
-
-- Then, click on `SAVE AND RESTART` button in the top right corner.
-
 - Open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and disable `CX_PRINT_LEVELING_CALIBRATION` command by adding a `#` and add `BED_MESH_CLEAR` and `BED_MESH_CALIBRATE` commands like this: 
 
   ```
@@ -98,18 +83,6 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
 - Also make sure `Label Objects` setting is enabled in your slicer.
-
-- It's done. You have now **Adaptive Meshing** when printing starting.
-
-<br />
-
-## Enable Line Purging and Smart Park functions
-
-- Open `KAMP_Settings.cfg` file and configure it like this:
-
-  <img width="900" alt="Capture d’écran 2023-09-18 à 02 21 25" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b18f6118-7a9f-4b67-9c34-8cebc6ef57a5">
-
-- Then, click on `SAVE AND RESTART` button in the top right corner.
 
 - It's done. You have now **Adaptive Meshing** when printing starting, the hotend which is parked next to the printing area during heating and the optimized purge line next to the printing area.
 
