@@ -1,3 +1,8 @@
+**07/10/2023**
+- Updated script to v2.5:
+  - Simplified KAMP installation.
+  - Klipper Gcode Shell Command can now be installed alone.
+
 **06/10/2023**
 - Updated script to v2.4 to allow to remove Entware and all installed packages.
 
