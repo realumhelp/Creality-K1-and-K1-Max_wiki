@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v2.4
+**Current script version:** v2.5
 
 ## Install 'Installation Helper Script'
 
@@ -40,7 +40,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-10-04 à 23 40 38" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/f37e463e-5167-44e7-bd00-d9f82fa77a73">
+  <img width="900" alt="Capture d’écran 2023-10-07 à 16 56 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/5406f40c-1ed3-43c6-a361-131ad65ae218">
 
 <br />
 
@@ -54,6 +54,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
   - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)
   - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
+  - `Install Klipper Gcode Shell Command file` -> To use shell commands in macros
   - `Install Custom Boot Display` -> To install a Custom Boot Display
   - `Install Buzzer Support files` -> To install files needed to use motherboard buzzer (more info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer))
   - `Install Nozzle Cleaning Fan Control files` -> To install files needed to control fans during nozzle cleaning (more info in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control))
@@ -67,6 +68,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
   - `Remove Hostname Service file` -> To remove Hostname Service file
   - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
+  - `Remove Klipper Gcode Shell Command file` -> To remove Klipper Gcode Shell Command file
   - `Remove Buzzer Support files` -> To remove Buzzer Support files
   - `Remove Nozzle Cleaning Fan Control files` -> To remove Nozzle Cleaning Fan Control files
   - `Remove Camera Settings Control files` -> To remove Camera Settings Control files
