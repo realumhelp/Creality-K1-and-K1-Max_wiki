@@ -2,7 +2,7 @@ Here you can find several useful links to improve your printer.
 
 <br />
 
-- **Use USB camera from USB port:**
+- **Use USB camera from front USB port:**
 
     https://github.com/trevos3d/K1-USB-Cam
 
