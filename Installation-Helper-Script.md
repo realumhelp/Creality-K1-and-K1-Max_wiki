@@ -12,7 +12,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v2.5
+**Current script version:** v2.6
 
 ## Install 'Installation Helper Script'
 
@@ -22,16 +22,6 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - Enter the following command to install script in `/root` folder:
 
-  ```
-  cd && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
-  ```
-
-  <u>Note:</u> To update the script when a new version is available, enter this command:
-
-  ```
-  cd && rm -rf /root/installer.sh && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
-  ```
-
 - And enter this command to run the script:
 
   ```
@@ -40,7 +30,26 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-10-07 à 16 56 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/5406f40c-1ed3-43c6-a361-131ad65ae218">
+  <img width="1492" alt="Capture d’écran 2023-10-08 à 19 22 42" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/bd89c930-9b96-4951-9fea-aa5dd7400e49">
+
+<br />
+
+In case you get this kind of error while installing some packages:
+
+  ```
+  Connecting to github.com (20.248.137.48:443)
+  wget: TLS error from peer (alert code 80): 80
+  wget: error getting response: Connection reset by peer
+  Download failed. Exit code: 1
+  ```
+  
+  - Install Entware by following this [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section.
+
+  - Once installed, in SSH command prompt, enter this command:
+
+    ```
+    opkg install wget-ssl
+    ```
 
 <br />
 
@@ -75,24 +84,5 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   - `Backup configuration files` -> To backup the Klipper configuration folder
   - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
   - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
-
-<br />
-
-In case you get this kind of error while installing some packages:
-
-  ```
-  Connecting to github.com (20.248.137.48:443)
-  wget: TLS error from peer (alert code 80): 80
-  wget: error getting response: Connection reset by peer
-  Download failed. Exit code: 1
-  ```
-  
-  - Install Entware by following this [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section.
-
-  - Once installed, in SSH command prompt, enter this command:
-
-    ```
-    opkg install wget-ssl
-    ```
 
 <br />
