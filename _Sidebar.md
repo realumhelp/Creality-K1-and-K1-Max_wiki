@@ -26,6 +26,7 @@
 ## Others
 > **• [Boards Layout](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Boards-Layout)** <br />
 > **• [Files Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Files-Location)** <br />
+> **• [Useful Links](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Links)** <br />
 ## Slicers
 > **• [OrcaSlicer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/OrcaSlicer)** <br />
 ## STL Files
