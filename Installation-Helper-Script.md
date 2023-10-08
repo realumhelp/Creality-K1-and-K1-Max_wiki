@@ -38,7 +38,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 <br />
 
-In case you get this kind of error while installing some packages:
+- In case you get this kind of error while installing some packages:
 
   ```
   Connecting to github.com (20.248.137.48:443)
