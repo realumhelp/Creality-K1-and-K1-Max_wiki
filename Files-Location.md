@@ -1,31 +1,32 @@
 Here you can find the different location of some files. Connect in SSH to access it.
 
+<br />
 
-#### Recorded Creality Timelapse video files:
+**Recorded Creality Timelapse video files:**
 
   ```
   /usr/data/creality/userdata/delay_image/video/
   ```
 
-#### Recorded Moonraker Timelapse video files:
+**Recorded Moonraker Timelapse video files:**
 
   ```
   /usr/data/printer_data/timelapse/
   ```
 
-#### Gcodes files:
+**Gcodes files:**
 
   ```
   /usr/data/printer_data/gcodes/
   ```
 
-#### Klipper Configuration files:
+**Klipper Configuration files:**
 
   ```
   /usr/data/printer_data/config/
   ```
 
-#### Animated Boot Screen:
+**Animated Boot Screen:**
 
   ```
   /etc/boot-display/
