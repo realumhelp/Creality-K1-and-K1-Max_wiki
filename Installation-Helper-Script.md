@@ -26,6 +26,12 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
   cd && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
   ```
 
+  <u>Note:</u> You can update the script directly on the script but if you need to update it manually, enter this command::
+
+  ```
+  cd && rm -f installer.sh && wget --no-check-certificate https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Scripts/installer.sh
+  ```
+
 - And enter this command to run the script:
 
   ```
