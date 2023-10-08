@@ -6,7 +6,7 @@ Here you can find several useful links to improve your printer.
 
     https://github.com/trevos3d/K1-USB-Cam
 
-- Control camera settings over SSH:
+- **Control camera settings over SSH:**
 
   https://github.com/victornpb/k1S/tree/main/camera
 
