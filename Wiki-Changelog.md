@@ -1,3 +1,9 @@
+**08/10/2023**
+- Updated script to v2.6:
+  - It's now possible to update the script to the latest version directly from the script.
+  - Now allow lower and upper case for inputs.
+  - Fixed KAMP folder path.
+
 **07/10/2023**
 - Updated script to v2.5:
   - Simplified KAMP installation. Updated [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
