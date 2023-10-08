@@ -10,7 +10,7 @@ Here you can find several useful links to improve your printer.
 
   https://github.com/victornpb/k1S/tree/main/camera
 
-- **D3D K1 Hardware Modifications**
+- **D3D K1 Hardware Modifications:**
 
     https://github.com/D3vil-Design/K1-Hardware-Mods
 
