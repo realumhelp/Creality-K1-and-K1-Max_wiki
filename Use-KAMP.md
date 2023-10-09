@@ -120,5 +120,6 @@ In case you use Prusa Slicer, it's also needed to add more macros in your `gcode
   [gcode_macro REMOVE_ALL_EXCLUDED]
   gcode:
     EXCLUDE_OBJECT RESET=1
+  ```
 
 <br />
