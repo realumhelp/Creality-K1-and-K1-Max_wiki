@@ -1,3 +1,8 @@
+**09/10/2023**
+- Updated script to v2.7:
+  - Added a new system menu to display some system information.
+  - Fixed typo.
+
 **08/10/2023**
 - Added [Useful Links](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Useful-Links) section.
 - Updated script to v2.6:
