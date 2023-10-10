@@ -1,3 +1,6 @@
+**10/10/2023**
+- Updated script to v2.8 to fix Entware install issue.
+
 **09/10/2023**
 - Updated script to v2.7:
   - Added a new system menu to display some system information.
