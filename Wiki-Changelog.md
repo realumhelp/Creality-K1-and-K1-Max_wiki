@@ -1,3 +1,6 @@
+**11/10/2023**
+- Updated script to v2.9 for another Entware install fix.
+
 **10/10/2023**
 - Updated script to v2.8 to fix Entware install issue.
 - Improved Timelapse render.
