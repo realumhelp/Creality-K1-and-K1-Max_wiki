@@ -10,15 +10,15 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   [gcode_macro INPUT_SHAPER]
   description: Measure X and Y axis resonances
   gcode:
-  G90
-  {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-  {% endif %}
-  SHAPER_CALIBRATE
-  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
-  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
-  G1 X{x_park} Y{y_park} F20000
-  M84
+    G90
+    {% if printer.toolhead.homed_axes != "xyz" %}
+      G28
+    {% endif %}
+    SHAPER_CALIBRATE
+    {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+    {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+    G1 X{x_park} Y{y_park} F20000
+    M84
   ```
 
 <br />
@@ -29,18 +29,18 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   [gcode_macro PID_BED]
   description: Start Bed PID
   gcode:
-  G90
-  {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-  {% endif %}
-  G1 Z10 F600
-  M106
-  PID_CALIBRATE HEATER=heater_bed TARGET={params.BED_TEMP|default(70)}
-  M107
-  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
-  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
-  G1 X{x_park} Y{y_park} F20000
-  M84
+    G90
+    {% if printer.toolhead.homed_axes != "xyz" %}
+      G28
+    {% endif %}
+    G1 Z10 F600
+    M106
+    PID_CALIBRATE HEATER=heater_bed TARGET={params.BED_TEMP|default(70)}
+    M107
+    {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+    {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+    G1 X{x_park} Y{y_park} F20000
+    M84
   ```
 
   You can select Bed temperature you want for PID calibration:
@@ -53,19 +53,19 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
   [gcode_macro PID_HOTEND]
   description: Start Hotend PID
   gcode:
-  G90
-  {% if printer.toolhead.homed_axes != "xyz" %}
-    G28
-  {% endif %}
-  G1 Z10 F600
-  M106
-  PID_CALIBRATE HEATER=extruder TARGET={params.HOTEND_TEMP|default(250)}
-  M107
-  {% set y_park = printer.toolhead.axis_maximum.y/2 %}
-  {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
-  G1 X{x_park} Y{y_park} F20000
-  WAIT_TEMP_START
-  M84
+    G90
+    {% if printer.toolhead.homed_axes != "xyz" %}
+      G28
+    {% endif %}
+    G1 Z10 F600
+    M106
+    PID_CALIBRATE HEATER=extruder TARGET={params.HOTEND_TEMP|default(250)}
+    M107
+    {% set y_park = printer.toolhead.axis_maximum.y/2 %}
+    {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
+    G1 X{x_park} Y{y_park} F20000
+    WAIT_TEMP_START
+    M84
   ```
 
   You can select Hotend temperature you want for PID calibration:
