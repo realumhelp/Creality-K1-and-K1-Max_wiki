@@ -33,9 +33,9 @@ It's possible to use the buzzer integrated into the motherboard to play a sound 
 
   [gcode_macro BEEP]
    gcode:
-    RUN_SHELL_COMMAND CMD=beep
-    RUN_SHELL_COMMAND CMD=beep
-    RUN_SHELL_COMMAND CMD=beep
+     RUN_SHELL_COMMAND CMD=beep
+     RUN_SHELL_COMMAND CMD=beep
+     RUN_SHELL_COMMAND CMD=beep
   ```
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
