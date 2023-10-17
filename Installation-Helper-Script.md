@@ -63,36 +63,53 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 <br />
 
-- With my script you can do this:
+## Features
 
-  - `Install Moonraker and Nginx` -> To install official and upgradable build of Moonraker
-  - `Install Fluidd (port 4408)` -> To install on port 4408 latest official and upgradable build of Fluidd
-  - `Install Mainsail (port 4409)` -> To install on port 4409 latest official and upgradable build of Mainsail
-  - `Install Moonraker Timelapse` -> To install necessary for using Timelapse
-  - `Install Entware` -> To install Entware (more info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section)
-  - `Install Mobileraker Companion` -> To install Mobileraker Companion (see usage here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works))
-  - `Install Klipper Adaptive Meshing & Purging` -> To install KAMP (more info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)
-  - `Install Hostname Service file` -> To install Hostname Service file needed to change hostname
-  - `Install Klipper Gcode Shell Command file` -> To use shell commands in macros
-  - `Install Custom Boot Display` -> To install a Custom Boot Display
-  - `Install Buzzer Support files` -> To install files needed to use motherboard buzzer (more info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer))
-  - `Install Nozzle Cleaning Fan Control files` -> To install files needed to control fans during nozzle cleaning (more info in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control))
-  - `Install Camera settings Control files` -> To install macros needed to control camera setting (more info in [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control))
-  - `Remove Fluidd` -> To remove Fluidd
-  - `Remove Mainsail` -> To remove Mainsail
-  - `Remove Moonraker Timelapse` -> To remove Timelapse
-  - `Remove Entware` -> To remove Entware and all installed packages
-  - `Remove Moonraker and Nginx` -> To remove Moonraker and Nginx
-  - `Remove Mobileraker Companion` -> To remove Mobileraker Companion
-  - `Remove Klipper Adaptive Meshing & Purging` -> To remove KAMP
-  - `Remove Hostname Service file` -> To remove Hostname Service file
-  - `Remove Custom Boot Display` -> To remove Custom Boot Display and reinstall the stock one
-  - `Remove Klipper Gcode Shell Command file` -> To remove Klipper Gcode Shell Command file
-  - `Remove Buzzer Support files` -> To remove Buzzer Support files
-  - `Remove Nozzle Cleaning Fan Control files` -> To remove Nozzle Cleaning Fan Control files
-  - `Remove Camera Settings Control files` -> To remove Camera Settings Control files
-  - `Backup configuration files` -> To backup the Klipper configuration folder
-  - `Restore configuration files` -> To restore a backup of the Klipper configuration folder
-  - `Reload Moonraker and Nginx` -> To reload Moonraker and Nginx services if needed
+- **Install & Remove `Moonraker and Nginx` (official build)**
+  - Moonraker is a Python 3 based web server that exposes APIs with which client applications may use to interact with Klipper firmware.
+
+- **Install & Remove `Fluidd` on port 4408 (official build)**
+  - Fluidd is a free and open-source Klipper web interface for managing your 3d printer.
+
+- **Install & Remove `Mainsail` on port 4409 (official build)**
+  - Mainsail is the popular web interface for managing and controlling 3D printers with Klipper.
+
+- **Install & Remove `Moonraker Timelapse` (modified build for K1 Series)**
+  - A 3rd party Moonraker component to create timelapse of 3D prints.
+
+- **Install & Remove `Entware` - More info in [Install Entware](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Install-Entware) section**
+
+  - Entware is a software repository for devices which use the Linux kernel. It allows packages to be added to your printer to perform new tasks or provide other functionality than what it was marketed for, or simply to perform those functions better.
+
+- **Install & Remove `Mobileraker Companion` (modified build for K1 Series) - More info here: [Github](https://github.com/Clon1998/mobileraker_companion#how-it-works)**
+  - Companion for Mobileraker phone App, enabling push notification for Klipper using Moonraker.
+
+- **Install & Remove `Klipper Adaptive Meshing & Purging` (modified build for K1 Series) - More info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)**
+  - Klipper Adaptive Meshing & Purging is an extension that allows you to generate a mesh only in the area you really need it: where you print!
+
+
+- **Install & Remove 'Hostname Service file` - More info in [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname) section**
+  - Allows you to change the hostname of the machine.
+
+- **Install & Remove `Klipper Gcode Shell Command` (official build)**
+  - Allows execute linux commands or even scripts from within Klipper with custom commands defined in your printer.cfg.
+
+- **Install & Remove `Custom Boot Display`**
+  - To install a custom Creality-themed boot display.
+
+- **Install & Remove `Buzzer Support files` - More info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer) section**
+  - Allows to use motherboard buzzer.
+
+- **Install & Remove `Nozzle Cleaning Fan Control files` - More info in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section**
+  - Allows to control fans during nozzle cleaning.
+
+- **Install & Remove `Camera settings Control files` - More info in [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control) section**
+  - Allows to install macros needed to control camera setting.
+
+- **Backup & restore `Klipper configuration files`**
+  - Allows to backup and restore a saved backup of the Klipper configuration folder.
+
+- **Reload `Moonraker and Nginx`**
+  - To reload Moonraker and Nginx services if needed.
 
 <br />
