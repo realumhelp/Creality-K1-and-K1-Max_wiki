@@ -1,3 +1,7 @@
+**18/10/2023**
+- Updated [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script) section.
+- Updated [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper) section.
+
 **11/10/2023**
 - Updated script to v2.9 for another Entware install fix.
 
