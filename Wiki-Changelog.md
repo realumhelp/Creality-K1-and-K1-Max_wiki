@@ -1,3 +1,6 @@
+**19/10/2023**
+- Updated for new 1.3.2.8 firmware.
+
 **18/10/2023**
 - Updated [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script) section.
 - Updated [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper) section.
