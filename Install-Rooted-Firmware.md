@@ -10,7 +10,7 @@ This guide explain how to install firmware and enable Root access.
 
 <br />
 
-<u>Note:</u> The K1 firmwares works without issue on the K1 Max, the detection of the correct printer being carried out by the firmware.
+<u>Note:</u> Firmwares works on K1 and K1 Max, the detection of the correct printer being carried out by the firmware.
 
 <br />
 
