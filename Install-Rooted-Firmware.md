@@ -32,9 +32,7 @@ This guide explain how to install firmware and enable Root access.
 
 - When you are on the home screen, you can remove the USB drive.
 
-- On the screen UI, go to `Settings` -> on `System` tab in `Self-check` -> check `Input Shaping` and `Auto Leveling` and click on `Start detecting`.
-
-- When self-check is complete, you can now use the printer.
+- Follow this [Reset Factory Settings](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-Factory-Settings) section to restore default settings.
 
 <br />
 
