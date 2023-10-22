@@ -14,6 +14,8 @@ It's possible to use the buzzer integrated into the motherboard to play a sound 
 
   <img width="900" alt="Capture d’écran 2023-10-09 à 01 58 59" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/bac35dd7-6a81-4ada-a711-6f6d2b2c566d">
 
+- Then reboot your printer.
+
 <br />
 
 ## Configuration
