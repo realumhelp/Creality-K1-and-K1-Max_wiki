@@ -17,3 +17,7 @@ Here you can find several useful links to improve your printer.
 - **Firmwares changes:**
 
     https://github.com/xand3r40r93/CR4CU220812S11
+
+- **Creality Wiki:**
+
+    https://wiki.creality.com/en/k1-flagship-series
