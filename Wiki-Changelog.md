@@ -1,5 +1,5 @@
 **21/10/2023**
-- Added new [Reset Factory Settings](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Restore-Factory-Settings) section.
+- Added new [Reset Factory Settings](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Reset-Factory-Settings) section.
 
 **19/10/2023**
 - Updated for new 1.3.2.8 firmware.
