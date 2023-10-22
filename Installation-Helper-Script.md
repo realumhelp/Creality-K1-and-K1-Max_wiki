@@ -89,7 +89,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 
 - **Install & Remove 'Hostname Service file` - More info in [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname) section**
-  - Allows you to change the hostname of the machine.
+  - Allows you to change the hostname of the machine (firmwares < 1.3.2.8)
 
 - **Install & Remove `Klipper Gcode Shell Command` (official build)**
   - Allows execute linux commands or even scripts from within Klipper with custom commands defined in your printer.cfg.
