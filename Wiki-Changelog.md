@@ -1,3 +1,8 @@
+**23/10/2023**
+- Updated script to v3.1:
+  - Updated KAMP to latest version. Please uninstall and reinstall it.
+  - Added changelog when new script version is available.
+
 **22/10/2023**
 - Updated [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname) section.
 - Updated script to v3.0 with new hostname service file for older firmwares than 1.3.2.8.
