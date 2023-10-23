@@ -144,8 +144,6 @@ However, sometimes we forget to save it. With these macros you will never need t
   ```
   [save_variables]
   filename: /usr/data/printer_data/config/variables.cfg
-
-  [respond]
   ```
 
 - In your `gcode_macro.cfg` file, add this lines:
