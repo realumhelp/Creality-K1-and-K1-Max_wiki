@@ -8,7 +8,7 @@ You can easily restore current Firmware to a previous Firmware.
 
   - [1.3.2.1](https://drive.google.com/file/d/1-hD7gfqsY3cuEoSbo1h7D2EJTM5Njihk/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.1.txt))
 
-  - [1.3.2.8](https://drive.google.com/file/d/1E7lPZyGdIBAcshr9Ivz-4JR23cSM9dmM/view?usp=share_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.8.txt))
+  - ~~1.3.2.8 ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.8.txt))~~
 
 **Official Firmwares for Creality K1 Max:**
 
@@ -18,7 +18,7 @@ You can easily restore current Firmware to a previous Firmware.
 
   - [1.3.2.1](https://drive.google.com/file/d/1-hD7gfqsY3cuEoSbo1h7D2EJTM5Njihk/view?usp=drive_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.1.txt))
 
-  - [1.3.2.8](https://drive.google.com/file/d/1E7lPZyGdIBAcshr9Ivz-4JR23cSM9dmM/view?usp=share_link) ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.8.txt))
+  - ~~1.3.2.8 ([Changelog](https://raw.githubusercontent.com/Guilouz/Creality-K1-and-K1-Max/main/Changelogs/Changelog_1.3.2.8.txt))~~
 
 <br />
 
