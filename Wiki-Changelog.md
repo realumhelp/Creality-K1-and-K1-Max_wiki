@@ -1,3 +1,6 @@
+**27/10/2023**
+- Removed 1.3.2.8 firmware. Creality has removed the firmware from their servers due to several issues.
+
 **23/10/2023**
 - Updated script to v3.1:
   - Updated KAMP to latest version. Please uninstall and reinstall it.
