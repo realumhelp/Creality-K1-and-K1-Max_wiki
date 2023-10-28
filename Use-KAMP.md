@@ -90,6 +90,9 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Also make sure `Label Objects` setting is enabled in your slicer.
 
+  - For OrcaSlicer: In `Others` tab, check `Exclude objets` setting
+  - For Creality Print: Under `Parameter Config` for each profil, check `Exclude objets` setting in `Experimental` tab
+
 - It's done. You have now **Adaptive Meshing** when printing starting, the hotend which is parked next to the printing area during heating and the optimized purge line next to the printing area.
 
 <br />
