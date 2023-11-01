@@ -107,7 +107,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 - Open the `moonraker.conf` file and enable this lines by removing `#` before (or add this lines if you don't have them) to have future updates:
 
   ```
-  # Remove '#' if you use KAMP
+  # Remove '#' from the lines below if you use KAMP
   [update_manager KAMP for K1 Series]
   type: git_repo
   channel: dev
