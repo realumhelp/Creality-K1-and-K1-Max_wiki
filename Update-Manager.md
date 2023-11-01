@@ -21,10 +21,10 @@ It's possible to update Klipper extensions using Moonraker.
   enable_system_updates: False
   ```
 
-  - If you use **Fluidd**, enable this lines by removing `#` before (or add this lines if you don't have them):
+  - If you use **Fluidd**, enable this lines by removing `#` before (or add this lines if you don't have them) like this:
 
     ```
-    # Remove '#' if you use Fluidd
+    # Remove '#' from the lines below if you use Fluidd
     [update_manager fluidd]
     type: web
     channel: beta
@@ -32,10 +32,10 @@ It's possible to update Klipper extensions using Moonraker.
     path: /usr/data/fluidd
     ```
 
-  - If you use **Mainsail**, enable this lines by removing `#` before (or add this lines if you don't have them):
+  - If you use **Mainsail**, enable this lines by removing `#` before (or add this lines if you don't have them) like this:
 
     ```
-    # Remove '#' if you use Mainsail
+    # Remove '#' from the lines below if you use Mainsail
     [update_manager mainsail]
     type: web
     channel: beta
@@ -43,10 +43,10 @@ It's possible to update Klipper extensions using Moonraker.
     path: /usr/data/mainsail
     ```
 
-  - If you use **KAMP**, enable this lines by removing `#` before (or add this lines if you don't have them):
+  - If you use **KAMP**, enable this lines by removing `#` before (or add this lines if you don't have them) like this:
 
     ```
-    # Remove '#' if you use KAMP
+    # Remove '#' from the lines below if you use KAMP
     [update_manager KAMP for K1 Series]
     type: git_repo
     channel: dev
