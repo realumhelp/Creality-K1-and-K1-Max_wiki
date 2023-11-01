@@ -12,6 +12,7 @@
 ## Configuration / Use
 > **• [SSH Connection](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)** <br />
 > **• [Access to Web Interface](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Access-to-Web-Interface)** <br />
+> **• [Update Manager](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Update-Manager)** <br />
 > **• [Configure Camera](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Configure-Camera)** <br />
 > **• [Use Timelapse](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Timelapse)** <br />
 > **• [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP)** <br />
