@@ -1,5 +1,5 @@
 **01/11/2023**
-- Updated script to v3.2 to fix of out range error. Please uninstall and reinstall it.
+- Updated script to v3.2 to fix of out range error with KAMP. Please uninstall and reinstall it.
 - Added firmware 1.3.2.14 provided by Creality which fixes issues related to version 1.3.2.8. Not yet published, use at your own risk!
 
 **27/10/2023**
