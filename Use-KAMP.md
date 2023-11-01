@@ -104,7 +104,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
-- Open the `moonraker.conf` file and add this to the end of the file (or enable these lines if they are already present) to have future updates:
+- Open the `moonraker.conf` file and enable this lines by removing `#` before (or add this lines if you don't have them) to have future updates:
 
   ```
   # Remove '#' if you use KAMP
