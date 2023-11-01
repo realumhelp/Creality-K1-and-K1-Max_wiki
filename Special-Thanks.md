@@ -7,7 +7,6 @@ Special Thanks to:
 - [Henlor](https://www.printables.com/model/537623-creality-build-plate-models-and-textures) for build plates stl models for OrcaSlicer.
 - [Tam Anderson](https://www.facebook.com/groups/557442779831567/user/1603433384) for Custom Boot Display for K1 and K1 Max.
 - [Tom Tomich](https://github.com/Tombraider2006) for somes macros.
-- [PA3GMT](https://github.com/PA3GMT) for fix for KAMP.
+- [PA3GMT](https://github.com/PA3GMT) and [3dimman](https://github.com/3dimman) for fixes for KAMP.
 - [victornpb](https://github.com/victornpb) for v4l2-ctl commands and some codes.
-- [3dimman](https://github.com/3dimman) for KAMP fixes.
 - Colt45RPM from Discord for testing.
