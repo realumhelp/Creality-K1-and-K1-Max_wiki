@@ -104,6 +104,20 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
+- Open the `moonraker.conf` file and add this to the end of the file (or enable these lines if they are already present) to have future updates:
+
+  ```
+  # Remove '#' if you use KAMP
+  [update_manager KAMP for K1 Series]
+  type: git_repo
+  channel: dev
+  path: /usr/data/KAMP-for-K1-Series
+  origin: https://github.com/Guilouz/KAMP-for-K1-Series.git
+  primary_branch: main
+  ```
+
+- Then, click on `SAVE AND RESTART` button in the top right corner.
+
 - Also make sure `Label Objects` setting is enabled in your slicer.
 
   - For OrcaSlicer: In `Others` tab, check `Exclude objets` setting
