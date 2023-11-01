@@ -1,3 +1,6 @@
+**01/11/2023**
+- Updated script to v3.2 to fix of out range error. Please uninstall and reinstall it. 
+
 **27/10/2023**
 - Removed 1.3.2.8 firmware. Creality has removed the firmware from their servers due to several issues.
 
