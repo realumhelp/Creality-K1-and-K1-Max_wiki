@@ -10,3 +10,4 @@ Special Thanks to:
 - [PA3GMT](https://github.com/PA3GMT) for fix for KAMP.
 - [victornpb](https://github.com/victornpb) for v4l2-ctl commands and some codes.
 - [3dimman](https://github.com/3dimman) for KAMP fixes.
+- Colt45RPM from Discord for testing.
