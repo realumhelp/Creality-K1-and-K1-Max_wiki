@@ -52,12 +52,4 @@ It's possible to update Klipper extensions using Moonraker.
     primary_branch: main
     ```
 
-  - If you use **Timelapse** function, enable this lines by removing `#` before (or add this lines if you don't have them):
-
-    ```
-    # Remove '#' if you use Timelapse function and replace port '4408' by '4409' in snapshoturl if you use Mainsail
-    [timelapse]
-    output_path: /usr/data/printer_data/timelapse/
-    frame_path: /usr/data/printer_data/frames/
-    snapshoturl: http://localhost:4408/webcam/?action=snapshot
-    ```
+<br />
