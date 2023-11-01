@@ -46,7 +46,22 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
-- Open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and disable `CX_PRINT_LEVELING_CALIBRATION` command by adding a `#` and add `BED_MESH_CLEAR` and `BED_MESH_CALIBRATE` commands like this: 
+- Open `gcode_macro.cfg` file, search macro named `[gcode_macro START_PRINT]` and:
+
+  - Replace `CX_PRINT_LEVELING_CALIBRATION` command by these:
+    ```
+    BED_MESH_CLEAR
+    BED_MESH_CALIBRATE
+    ```
+  - Replace `CX_PRINT_DRAW_ONE_LINE` command by these:
+    ```
+    _SMART_PARK
+    M109 S{extruder_temp}
+    M190 S{bed_temp}
+    _LINE_PURGE
+    ```
+
+  Like this:
 
   ```
   [gcode_macro START_PRINT]
@@ -70,17 +85,18 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
       CX_ROUGH_G28 EXTRUDER_TEMP={extruder_temp} BED_TEMP={bed_temp}
       CX_NOZZLE_CLEAR
       ACCURATE_G28
-      #CX_PRINT_LEVELING_CALIBRATION
       BED_MESH_CLEAR
       BED_MESH_CALIBRATE
     {% else %}
       PRINT_PREPARE_CLEAR
     {% endif %}
-  
-    CX_PRINT_DRAW_ONE_LINE
+    _SMART_PARK
+    M109 S{extruder_temp}
+    M190 S{bed_temp}
+    _LINE_PURGE
   ```
 
-  <u>Note:</u> In case you don't define acceleration values in your slicer, it's necessary to add this command after the line `CX_PRINT_DRAW_ONE_LINE` to load the default acceleration from the `printer.cfg` file:
+  <u>Note:</u> In case you don't define acceleration values in your slicer, it's necessary to add this command under the line `_LINE_PURGE` to load the default acceleration from the `printer.cfg` file:
 
   ```
   SET_VELOCITY_LIMIT ACCEL={printer.configfile.settings.printer.max_accel}
