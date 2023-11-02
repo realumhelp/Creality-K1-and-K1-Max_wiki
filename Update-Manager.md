@@ -53,6 +53,7 @@ It's possible to update Klipper extensions using Moonraker.
     path: /usr/data/KAMP-for-K1-Series
     origin: https://github.com/Guilouz/KAMP-for-K1-Series.git
     primary_branch: main
+    is_system_service: False
     ```
 
 <br />
