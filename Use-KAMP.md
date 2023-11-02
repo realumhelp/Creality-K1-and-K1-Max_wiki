@@ -108,7 +108,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
 
   ```
   # Remove '#' from the lines below if you use KAMP
-  [update_manager KAMP for K1 Series]
+  [update_manager KAMP-for-K1-Series]
   type: git_repo
   channel: dev
   path: /usr/data/KAMP-for-K1-Series
