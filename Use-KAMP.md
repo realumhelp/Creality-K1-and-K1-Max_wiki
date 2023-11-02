@@ -114,6 +114,7 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
   path: /usr/data/KAMP-for-K1-Series
   origin: https://github.com/Guilouz/KAMP-for-K1-Series.git
   primary_branch: main
+  is_system_service: False
   ```
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
