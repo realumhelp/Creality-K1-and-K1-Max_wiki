@@ -1,3 +1,6 @@
+**02/11/2023**
+- Fixed KAMP warning in Update Manager
+
 **01/11/2023 #2**
 - Updated script to v3.3. KAMP for K1 Series have now a repository (https://github.com/Guilouz/KAMP-for-K1-Series). It can be included in update manager for future updates. Please uninstall and reinstall KAMP.
 - Updated [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section with new configuration.
