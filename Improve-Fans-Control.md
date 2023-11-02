@@ -10,7 +10,7 @@ Here you can find different tips to improve fans control.
 
 By default at the end of a print, the hotend is cooled by its fan which runs at 100%.
 
-By making this change, the hotend fan speed will be reduced to 80% and the side fan will also be enabled at 80%. This allows faster and quieter cooling.
+By making this change, the hotend fan speed will be reduced to 80% and the side fan will also be enabled at 40%. This allows faster and quieter cooling.
 
 <br />
 
@@ -25,8 +25,8 @@ By making this change, the hotend fan speed will be reduced to 80% and the side 
   [gcode_macro WAIT_TEMP_START]
   gcode:
     UPDATE_DELAYED_GCODE ID=wait_temp DURATION=1
-    M106 P0 S200
-    SET_PIN PIN=fan2 VALUE=80
+    SET_PIN PIN=fan0 VALUE=210
+    SET_PIN PIN=fan2 VALUE=210
   ```
 
 - Then, search macro named `[gcode_macro WAIT_TEMP_END]` and replace it by this one:
