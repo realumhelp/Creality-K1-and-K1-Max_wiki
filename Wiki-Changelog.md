@@ -1,3 +1,6 @@
+**03/11/2023**
+- Added new [Fix printing Gcode from folder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-printing-Gcode-from-folder) section.
+
 **02/11/2023**
 - Fixed KAMP warning in Update Manager
 
