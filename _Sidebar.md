@@ -19,7 +19,7 @@
 > **• [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer)** <br />
 > **• [Camera Settings Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Camera-Settings-Control)** <br />
 > **• [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname)** <br />
-> **• [Change Wi-Fi Location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Wi‐Fi-Location)** <br />
+> **• [Change Wi-Fi location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Wi‐Fi-location)** <br />
 
 ## Improvements
 > **• [Fix issue with Input Shaper](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-issue-with-Input-Shaper)** <br />
