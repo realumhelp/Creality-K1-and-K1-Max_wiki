@@ -1,3 +1,6 @@
+**05/11/2023**
+- Added new [Change Wi-Fi location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Wi%E2%80%90Fi-location) section.
+
 **03/11/2023**
 - Added new [Fix printing Gcode from folder](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Fix-printing-Gcode-from-folder) section.
 
