@@ -118,18 +118,17 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
 <br /><br />
 
-  <u>Note:</u> Some K1 don't have a second filament sensor defined. If you encounter this error when running some macros:
-
-**!! {"code":"key69", "msg": "The value 'filament_sensor_2' is not valid for SENSOR", "values": ["filament_sensor_2", "SENSOR"]}**
-
-Just remove or comment this lines:
-  ```  
-  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
-  ```
-and
-  ```
-  SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-  ```
+  > [!NOTE]
+  > Some K1 don't have a second filament sensor defined. If you encounter this error when running some macros: <br />
+  > **!! {"code":"key69", "msg": "The value 'filament_sensor_2' is not valid for SENSOR", "values": ["filament_sensor_2", "SENSOR"]}** <br />
+  > Just remove or comment this lines:
+  > ```  
+  > SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=0
+  > ```
+  > and
+  > ```
+  > SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
+  > ```
 
 <br /><br />
 
