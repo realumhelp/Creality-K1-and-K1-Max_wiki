@@ -2,7 +2,8 @@ It's possible to control camera settings with macros.
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
+> [!NOTE]
+> **This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 <br />
 
@@ -62,7 +63,8 @@ It's possible to control camera settings with macros.
     CAM_EXPOSURE_AUTO_PRIORITY EXPOSURE_AUTO_PRIORITY=0
   ```
 
-  <u>Note:</u> Here all macros are configured with their default value, you can remove unmodified ones if they don't need to be loaded when Klipper starts.
+  > [!NOTE]
+  > Here all macros are configured with their default value, you can remove unmodified ones if they don't need to be loaded when Klipper starts.
 
 - Then, click on `SAVE AND RESTART` button in the top right corner.
 
