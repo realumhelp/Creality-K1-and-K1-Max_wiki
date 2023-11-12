@@ -4,11 +4,13 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
+> [!NOTE]
+> **This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
 
 <br />
 
-⚠ **ONLY USE THIS SCRIPT WITH FIRMWARE 1.3.2.1 AND ABOVE!**
+> [!WARNING]
+> **ONLY USE THIS SCRIPT WITH FIRMWARE 1.3.2.1 AND ABOVE!**
 
 <br />
 
