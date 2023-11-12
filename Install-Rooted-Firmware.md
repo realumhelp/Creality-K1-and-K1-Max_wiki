@@ -63,6 +63,6 @@ This guide explain how to install firmware and enable Root access.
 <br />
 
 > [!NOTE]
-> Root access must be re-enabled if you restore the printer to default settings.
+> **Root access must be re-enabled if you restore the printer to default settings.**
 
 <br />
