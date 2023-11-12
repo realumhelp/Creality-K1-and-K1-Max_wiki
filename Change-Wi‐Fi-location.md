@@ -6,7 +6,8 @@ Only make these changes if you are experiencing stability issues with your print
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
+> [!NOTE]
+> **This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 <br />
 
