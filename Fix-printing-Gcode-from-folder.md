@@ -4,7 +4,8 @@ This returns **_code:"key514", "msg":"Malformed command args..._** error.
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
+> [!NOTE]
+> **This procedure must be repeated if you restore the printer to default settings or if you update the firmware.**
 
 <br />
 
