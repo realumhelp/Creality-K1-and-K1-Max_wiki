@@ -2,7 +2,8 @@ It's possible to use the buzzer integrated into the motherboard to play a sound 
 
 <br />
 
-**<u>Note:</u> This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
+> [!NOTE]
+> **This procedure must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 <br />
 
