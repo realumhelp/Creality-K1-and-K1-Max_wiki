@@ -2,7 +2,8 @@ Here you can find different tips to improve fans control.
 
 <br />
 
-**<u>Note:</u> This procedures must be repeated if you update the firmware or if you restore the printer to default settings.**
+> [!NOTE]
+> **This procedures must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 <br />
 
@@ -122,7 +123,8 @@ It's possible to control hotend and side fans during nozzle cleaning process. Th
   max_speed: 0.5
   ```
 
-  <u>Note:</u> You can change the `max_speed` value knowing that the max value is 1.0 (which corresponds to a speed of 100%).
+  > [!NOTE]
+  > You can change the `max_speed` value knowing that the max value is 1.0 (which corresponds to a speed of 100%).
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
