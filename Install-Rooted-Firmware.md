@@ -10,7 +10,11 @@ This guide explain how to install firmware and enable Root access.
 
 **Official but untested Rooted Firmwares for Creality K1 Series:**
 
-  - [1.3.2.14](https://drive.google.com/file/d/1v6xVPVuMXX0XaM5_wLIZJC7RkqFwUK3c/view?usp=drive_link) (Provided by Creality which fixes issues related to version 1.3.2.8. Not yet published, use at your own risk!)
+  - [1.3.2.14](https://drive.google.com/file/d/1v6xVPVuMXX0XaM5_wLIZJC7RkqFwUK3c/view?usp=drive_link) (Provided by Creality. Not yet published, use at your own risk!)
+
+  - [1.3.2.15](https://drive.google.com/file/d/1j4kwNCpP3e7-StfP4QYWM3KBteu2zCLy/view?usp=drive_link) (Provided by Creality. Not yet published, use at your own risk!)
+
+  - [1.3.2.17](https://drive.google.com/file/d/1G_nKRGlMfXIojWtxI1edMGJRgQL31BYu/view?usp=drive_link) (Provided by Creality. Not yet published, use at your own risk!)
 
 <br />
 
