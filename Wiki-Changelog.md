@@ -1,5 +1,5 @@
 **15/11/2023**
-- Added new 1.3.2.20 firmware.
+- Added new 1.3.2.20 official firmware.
 - Added support for hotsname with CR-10 SE
 - Updated script to v3.4 to add support for OctoEverywhere.
 
