@@ -16,6 +16,8 @@ This guide explain how to install firmware and enable Root access.
 
   - [1.3.2.17](https://drive.google.com/file/d/1G_nKRGlMfXIojWtxI1edMGJRgQL31BYu/view?usp=drive_link) (Provided by Creality. Not yet published, use at your own risk!)
 
+  - [1.3.2.18](https://drive.google.com/file/d/1qpJCUNwv49szT9MLM8YSit-5cXbrR1NK/view?usp=drive_link) (Provided by Creality. Not yet published, use at your own risk!)
+
 <br />
 
 > [!NOTE]
