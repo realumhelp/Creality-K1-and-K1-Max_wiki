@@ -1,3 +1,6 @@
+**15/11/2023**
+Added new 1.3.2.20 firmware.
+
 **05/11/2023**
 - Added new [Change Wi-Fi location](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Wi%E2%80%90Fi-location) section.
 
