@@ -10,4 +10,5 @@ Special Thanks to:
 - [PA3GMT](https://github.com/PA3GMT) and [3dimman](https://github.com/3dimman) for fixes for KAMP.
 - [victornpb](https://github.com/victornpb) for v4l2-ctl commands and some codes.
 - [Sendorm](https://www.reddit.com/user/Sendorm/) for fix for printing Gcode from folder.
+- [Quinn Damerell](https://github.com/QuinnDamerell) for OctoEverywhere.
 - Colt45RPM from Discord for KAMP testing.
