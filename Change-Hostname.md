@@ -3,7 +3,7 @@ Changing the hostname can be useful if you have multiple K1 printers to give the
 <br />
 
 > [!IMPORTANT]
-> **This section is deprecated since firmware 1.3.2.8, Creality fixed this issue by setting the hostname with the MAC address of the machine.**
+> **This section is deprecated since firmware 1.3.2.20, Creality fixed this issue by setting the hostname with the MAC address of the machine.**
 
 <br />
 
