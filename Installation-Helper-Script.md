@@ -76,7 +76,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 - **Install & Remove `Mainsail` on port 4409 (official build)**
   - Mainsail is the popular web interface for managing and controlling 3D printers with Klipper.
 
-- **Install & Remove `OctoEverywhere`**
+- **Install & Remove `OctoEverywhere` - More info here: [Github](https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere)**
   - Cloud empower your Klipper printers with free, private, and unlimited remote access to your full web control portal from anywhere!
 
 - **Install & Remove `Moonraker Timelapse` (modified build for K1 Series)**
