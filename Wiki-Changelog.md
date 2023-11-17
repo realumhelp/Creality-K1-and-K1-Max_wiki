@@ -1,3 +1,6 @@
+**17/11/2023**
+- Updated script to v3.5 to fix IP address in System menu.
+
 **15/11/2023**
 - Added new 1.3.2.20 official firmware.
 - Added support for hotsname with Creality CR-10 SE.
