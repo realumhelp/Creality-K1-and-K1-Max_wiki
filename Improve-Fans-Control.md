@@ -44,9 +44,9 @@ By making this change, the hotend fan speed will be reduced to 80% and the side 
 
 <br />
 
-## Control chamber fan
+## Control chamber and motherboard fans
 
-It's possible to trigger the back fan depending on the chamber temperature.
+It's possible to trigger the back fan depending on the chamber temperature and the motherboard fan depending on the CPU temperature..
 
 <br />
 
@@ -59,7 +59,7 @@ It's possible to trigger the back fan depending on the chamber temperature.
 
   ```
   [duplicate_pin_override]
-  pins: PC0, PC5
+  pins: PC0, PC5, PB2, ADC_TEMPERATURE
 
   [temperature_fan chamber_fan]
   pin: PC0
@@ -76,6 +76,30 @@ It's possible to trigger the back fan depending on the chamber temperature.
   target_temp: 35.0
   max_speed: 1.0
   min_speed: 0.0
+
+  [temperature_fan cpu_fan]
+  pin: PB2
+  cycle_time: 0.0100
+  hardware_pwm: false
+  max_power: 1
+  shutdown_speed: 0
+  sensor_type: temperature_mcu
+  min_temp: 0
+  max_temp: 100
+  control: watermark
+  max_delta: 2
+  target_temp: 45.0
+  max_speed: 1.0
+  min_speed: 0.0
+
+  [output_pin cpu_fan]
+  pin: PB2
+  pwm: True
+  cycle_time: 0.0100
+  hardware_pwm: false
+  value: 0.00
+  scale: 255
+  shutdown_value: 0.0
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
@@ -91,9 +115,13 @@ It's possible to trigger the back fan depending on the chamber temperature.
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
-- You can now change the chamber fan trigger temperature here:
+- You can now change the trigger temperature of the chamber and motherboard fans here:
 
-  <img width="700" alt="Capture d’écran 2023-09-29 à 12 18 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/1159f580-00ef-4b1b-a8e4-a009852e57a4">
+  <img width="615" alt="Capture d’écran 2023-11-17 à 19 43 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/4838e182-03a3-46a9-95b1-027e485887d2">
+
+- You can also change the motherboard fan speed manually here:
+
+  <img width="617" alt="Capture d’écran 2023-11-17 à 19 44 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a8982efd-fcfa-46ee-ade4-6c7cb2330ab7">
 
 - You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 °C).
 
