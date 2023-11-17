@@ -1,5 +1,6 @@
 **17/11/2023**
 - Updated script to v3.5 to fix IP address in System menu.
+- Updated [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section to control motherboard fan.
 
 **15/11/2023**
 - Added new 1.3.2.20 official firmware.
