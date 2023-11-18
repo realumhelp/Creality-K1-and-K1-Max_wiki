@@ -1,5 +1,5 @@
 **18/11/2023**
-- Updated script to v3.6 to install OctoEverywhere in /usr/data folder (before /usr/share/). Please remove and reinstall it.
+- Updated script to v3.6 to install OctoEverywhere in /usr/data/ folder (before /usr/share/). Please remove and reinstall it.
 
 **17/11/2023**
 - Updated script to v3.5 to fix IP address in System menu.
