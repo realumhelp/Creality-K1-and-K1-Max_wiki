@@ -1,3 +1,6 @@
+**18/11/2023**
+- Updated script to v3.6 to install OctoEverywhere in /usr/data folder (before /usr/share/). Please remove and reinstall it.
+
 **17/11/2023**
 - Updated script to v3.5 to fix IP address in System menu.
 - Updated [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section to control motherboard fan.
