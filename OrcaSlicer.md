@@ -18,7 +18,7 @@ It contains:
 
 - [OrcaSlicer for Creality K1 Max](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1%20Max.zip)
 - [OrcaSlicer for Creality K1](https://github.com/Guilouz/Creality-K1-and-K1-Max/raw/main/OrcaSlicer/Creality%20K1.zip)
-- You can also find my French translation for OrcaSlicer [here](https://drive.google.com/drive/folders/1dxPYa3dHhKou3HC3dDengFeG0LiHm-q2?usp=drive_link)
+- You can also find my French translation for OrcaSlicer [here](https://github.com/Guilouz/Traduction-FR-OrcaSlicer)
 
 <br />
 
