@@ -28,7 +28,7 @@ It contains:
 
   <img width="641" alt="Capture d’écran 2023-08-04 à 02 19 39" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/5eda3916-5e73-4d1d-ae42-96c2b127363a">
 
-- In section `Hostname, IP or URL`, enter the IP address of your printer with port 4408 such as: `http://xxx.xxx.xxx.xxx:4408/` (replacing xxx.xxx.xxx.xxx by your local IP address):
+- In section `Hostname, IP or URL`, enter the IP address of your printer with port 4408 if you use Fluidd or 4409 if you use Mainsail such as: `http://xxx.xxx.xxx.xxx:4408/` (replacing xxx.xxx.xxx.xxx by your local IP address):
 
   <img width="952" alt="Capture d’écran 2023-08-04 à 02 24 10" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/ed1c6190-aa23-4f37-9564-e6d65861d980">
 
