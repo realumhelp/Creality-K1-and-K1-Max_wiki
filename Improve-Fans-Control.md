@@ -104,13 +104,22 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
-- Open `gcode_macro.cfg` file and add this macro:
+- Open `gcode_macro.cfg` file and add this macros:
 
   ```
   [gcode_macro M141]
   description: Set Chamber Temperature with slicers
   gcode:
-    SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={params.S|default(35)}
+    {% set s = params.S|float %}
+    SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
+    { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
+
+  [gcode_macro M191]
+  description: Set Chamber Temperature with slicers
+  gcode:
+    {% set s = params.S|float %}
+    SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
+    { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
