@@ -122,6 +122,54 @@ It's possible to trigger the back fan depending on the chamber temperature and t
     { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
   ```
 
+  This macros allow to use `Print chamber temperature` function in OrcaSlicer with **M141 Sxx** and **M191 Sxx** commands:
+
+  <img width="600" alt="Capture d’écran 2023-11-20 à 23 28 44" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9b3a032a-2661-4c67-b19a-c1e7cbbc3c4f">
+
+- Then, find macro named `[gcode_macro M106]` and replace it with this one:
+
+  ```
+  [gcode_macro M106]
+  gcode:
+    {% set fans = printer["gcode_macro PRINTER_PARAM"].fans|int %}
+    {% set fan = 0 %}
+    {% set value = 0 %}
+    {% if params.P is defined %}
+      {% set tmp = params.P|int %}
+      {% if tmp < fans %}
+        {% set fan = tmp %}
+      {% endif %}
+    {% endif %}
+    {% if params.S is defined %}
+      {% set tmp = params.S|float %}
+    {% else %}
+      {% set tmp = 255 %}
+    {% endif %}
+    {% if tmp > 0 %}
+      {% if fan == 0 %}
+        {% set value = printer["gcode_macro PRINTER_PARAM"].fan0_min + (255 - printer["gcode_macro PRINTER_PARAM"].fan0_min) / 255 * tmp %}
+      {% endif %}
+      {% if fan == 1 %}
+        {% set value = printer["gcode_macro PRINTER_PARAM"].fan1_min + (255 - printer["gcode_macro PRINTER_PARAM"].fan1_min) / 255 * tmp %}
+      {% endif %}
+      {% if fan == 2 %}
+        {% set value = printer["gcode_macro PRINTER_PARAM"].fan2_min + (255 - printer["gcode_macro PRINTER_PARAM"].fan2_min) / 255 * tmp %}
+      {% endif %}
+    {% endif %}
+    {% if value >= 255 %}
+      {% set value = 255 %}
+    {% endif %}
+    {% if params.P is defined and params.P|int == 3 %}
+      {% set fan = 1 %}
+    {% endif %}
+    SET_PIN PIN=fan{fan} VALUE={value}
+  ```
+
+  This macros allow to use `Exhaust fan` function in OrcaSlicer with **M106 P3 Sxx** command:
+
+  <img width="600" alt="Capture d’écran 2023-11-20 à 23 37 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/117efaea-fcf6-46a8-8e0a-28b1f8b9a668">
+
+
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
 - You can now change the trigger temperature of the chamber and motherboard fans here:
@@ -131,8 +179,6 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 - You can also change the motherboard fan speed manually here:
 
   <img width="617" alt="Capture d’écran 2023-11-17 à 19 44 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a8982efd-fcfa-46ee-ade4-6c7cb2330ab7">
-
-- You can also use `M141 Sxx` command in your slicer to define the chamber fan trigger temperature by replacing `xx` by temperature value (range between 0 and 70 °C).
 
 <br />
 
