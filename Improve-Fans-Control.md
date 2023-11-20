@@ -104,6 +104,14 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
+- You can now change the trigger temperature of the chamber and motherboard fans here:
+
+  <img width="615" alt="Capture d’écran 2023-11-17 à 19 43 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/4838e182-03a3-46a9-95b1-027e485887d2">
+
+- You can also change the motherboard fan speed manually here:
+
+  <img width="617" alt="Capture d’écran 2023-11-17 à 19 44 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a8982efd-fcfa-46ee-ade4-6c7cb2330ab7">
+
 - Open `gcode_macro.cfg` file and add this macros:
 
   ```
@@ -171,14 +179,6 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
-
-- You can now change the trigger temperature of the chamber and motherboard fans here:
-
-  <img width="615" alt="Capture d’écran 2023-11-17 à 19 43 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/4838e182-03a3-46a9-95b1-027e485887d2">
-
-- You can also change the motherboard fan speed manually here:
-
-  <img width="617" alt="Capture d’écran 2023-11-17 à 19 44 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a8982efd-fcfa-46ee-ade4-6c7cb2330ab7">
 
 <br />
 
