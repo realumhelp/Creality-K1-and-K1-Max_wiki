@@ -1,5 +1,6 @@
 **20/11/2023**
-- Added support for M191 to control chamber fan in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
+- Added support for **M191** command to control chamber fan in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
+- Added changes to support **M106 P3 Sxx** command for chamber fan in [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
 
 **18/11/2023**
 - Updated script to v3.6 to install OctoEverywhere in /usr/data/ folder (before /usr/share/). Please remove and reinstall it.
