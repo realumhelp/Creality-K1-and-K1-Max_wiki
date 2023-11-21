@@ -35,7 +35,8 @@ This process installs a version of Timelapse compatible with K1 Series.
   snapshoturl: http://localhost:4408/webcam/?action=snapshot
   ```
 
-  <u>Note:</u> Replace port `4408` to `4409` in `snapshoturl` if you only use Mainsail.
+> [!NOTE]
+> Replace port `4408` to `4409` in `snapshoturl` if you only use Mainsail.
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
 
