@@ -6,7 +6,7 @@ Here you can find different tips to improve fans control.
 > **This procedures must be repeated if you update the firmware or if you restore the printer to default settings.**
 
 > [!IMPORTANT]
-> Make sure you have [[respond]](https://www.klipper3d.org/G-Codes.html#respond) Klipper function in your configuration files, some macros use it
+> **Make sure you have [[respond]](https://www.klipper3d.org/G-Codes.html#respond) Klipper function in your configuration files, some macros use it.**
 
 <br />
 
