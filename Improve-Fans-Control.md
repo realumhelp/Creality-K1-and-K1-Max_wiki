@@ -5,6 +5,9 @@ Here you can find different tips to improve fans control.
 > [!NOTE]
 > **This procedures must be repeated if you update the firmware or if you restore the printer to default settings.**
 
+> [!IMPORTANT]
+> Make sure you have [[respond]](https://www.klipper3d.org/G-Codes.html#respond) Klipper function in your configuration files, some macros use it
+
 <br />
 
 ## Improve hotend cooling at the end of printing
@@ -128,6 +131,22 @@ It's possible to trigger the back fan depending on the chamber temperature and t
     {% set s = params.S|float %}
     SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
     { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
+  ```
+
+  Another alternative for the **M191** macro to heat the bed to 100C° to reach a desired chamber temperature before starting a print:
+
+  ```
+  [gcode_macro M191]
+  description: Wait Chamber Temperature before start print
+  gcode:
+    {% set s = params.S|float %}
+    {% if s > 0 %}
+      SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
+      M140 S100
+      { action_respond_info("Waiting for bed to heat up...") }
+      TEMPERATURE_WAIT SENSOR="temperature_fan chamber_fan" MINIMUM={s-1} MAXIMUM={s+1}
+      { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
+    {% endif %}
   ```
 
   This macros allow to use `Print chamber temperature` function in OrcaSlicer with **M141 Sxx** and **M191 Sxx** commands:
