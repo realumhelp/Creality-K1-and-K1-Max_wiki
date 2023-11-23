@@ -1,3 +1,6 @@
+**23/11/2023 #2**
+- Updated KAMP for K1 Series to remove underscore in macros. Please update your gcode_macro.cfg file, see [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
+
 **23/11/2023**
 - Updated script to v3.7 to add support for Obico and improve GUI.
 
