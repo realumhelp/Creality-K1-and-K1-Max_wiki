@@ -55,10 +55,10 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
     ```
   - Replace `CX_PRINT_DRAW_ONE_LINE` command by these:
     ```
-    _SMART_PARK
+    SMART_PARK
     M109 S{extruder_temp}
     M190 S{bed_temp}
-    _LINE_PURGE
+    LINE_PURGE
     ```
 
   Like this:
@@ -90,10 +90,10 @@ More info about KAMP here: [Github](https://github.com/kyleisah/Klipper-Adaptive
     {% else %}
       PRINT_PREPARE_CLEAR
     {% endif %}
-    _SMART_PARK
+    SMART_PARK
     M109 S{extruder_temp}
     M190 S{bed_temp}
-    _LINE_PURGE
+    LINE_PURGE
   ```
 
   <u>Note:</u> In case you don't define acceleration values in your slicer, it's necessary to add this command under the line `_LINE_PURGE` to load the default acceleration from the `printer.cfg` file:
