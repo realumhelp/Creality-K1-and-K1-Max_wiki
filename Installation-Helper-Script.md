@@ -14,7 +14,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v3.6.1
+**Current script version:** v3.7
 
 ## Install 'Installation Helper Script'
 
@@ -42,7 +42,7 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - You can now select what you want to install or remove by typing your choice and validate with Enter keyboard button:
 
-  <img width="900" alt="Capture d’écran 2023-10-09 à 01 58 59" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/bac35dd7-6a81-4ada-a711-6f6d2b2c566d">
+  <img width="900" alt="Capture d’écran 2023-11-23 à 01 48 35" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/633764d2-fb37-4757-a2c0-7fd06b954b65">
 
 <br />
 
@@ -79,6 +79,9 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 - **Install & Remove `OctoEverywhere` - More info here: [Github](https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere)**
   - Cloud empower your Klipper printers with free, private, and unlimited remote access to your full web control portal from anywhere!
 
+- **Install & Remove `Obico` - More info here: [Github](https://github.com/TheSpaghettiDetective/moonraker-obico)**
+  - This is a Moonraker plugin that enables the Klipper-based 3D printers to connect to Obico. Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.
+
 - **Install & Remove `Moonraker Timelapse` (modified build for K1 Series)**
   - A 3rd party Moonraker component to create timelapse of 3D prints.
 
@@ -91,7 +94,6 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - **Install & Remove `Klipper Adaptive Meshing & Purging` (modified build for K1 Series) - More info in [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section)**
   - Klipper Adaptive Meshing & Purging is an extension that allows you to generate a mesh only in the area you really need it: where you print!
-
 
 - **Install & Remove 'Hostname Service file` - More info in [Change Hostname](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Change-Hostname) section**
   - Allows you to change the hostname of the machine (firmwares < 1.3.2.8)
