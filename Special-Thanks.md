@@ -11,4 +11,5 @@ Special Thanks to:
 - [victornpb](https://github.com/victornpb) for v4l2-ctl commands and some codes.
 - [Sendorm](https://www.reddit.com/user/Sendorm/) for fix for printing Gcode from folder.
 - [Quinn Damerell](https://github.com/QuinnDamerell) for OctoEverywhere.
+- [Kenneth Jiang](https://github.com/kennethjiang) for Obico.
 - Colt45RPM from Discord for KAMP testing.
