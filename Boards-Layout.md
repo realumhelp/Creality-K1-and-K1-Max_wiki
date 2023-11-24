@@ -11,6 +11,6 @@
 ![Nozzle_Board_A](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/35c17806-71dc-423e-88ec-384620b8d88b)
 
 
-![Nozzle_Board_B](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/e332b2ed-8865-4d85-a9c1-0993dce41e8e)
+![Nozzle_Board_B](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/342bdcf8-65b6-449d-8d96-c79fcd0eda41)
 
 <br />
