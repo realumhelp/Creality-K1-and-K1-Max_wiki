@@ -39,9 +39,9 @@ You can improve Bed Mesh just changing the interpolation from lagrange to bicubi
 
   This is my result:
 
-  <img width="1385" alt="Capture d’écran 2023-08-04 à 15 45 27" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/963d1a06-b4ad-4ce8-8ebe-74170c9d9ccc">
+  <img width="1385" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Bed-Mesh/Bed_Mesh_01.png">
 
-  <img width="2545" alt="Capture d’écran 2023-08-04 à 15 19 16" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c0ad53f3-da62-45c9-a85a-57336a39036f">
+  <img width="2545" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Bed-Mesh/Bed_Mesh_02.png">
 
 
 - If you want to run Bed Leveling manually, add this macros at the bottom of `gcode_macro.cfg` file:
