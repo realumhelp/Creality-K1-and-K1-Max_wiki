@@ -1,6 +1,6 @@
 It's possible to update Klipper extensions using Moonraker.
 
-<img width="900" alt="Capture d’écran 2023-11-01 à 19 18 08" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3a01e7a4-1b3f-4d1e-9ea7-7998ae51e1dd">
+<img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Update-Manager/Update_Manager.png">
 
 
 <br />
