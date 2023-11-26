@@ -91,7 +91,7 @@ It's possible to trigger the back fan depending on the chamber temperature and t
   max_temp: 100
   control: watermark
   max_delta: 2
-  target_temp: 45.0
+  target_temp: 50.0
   max_speed: 1.0
   min_speed: 0.0
 
