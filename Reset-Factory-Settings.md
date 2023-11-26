@@ -6,7 +6,7 @@ The best way to reset the printer to its factory settings is to use the reset fu
 
 - Open the file `Creality_K1_Reset_Utility.html` in your Internet browser:
 
-  <img width="900" alt="Capture d’écran 2023-10-21 à 23 09 57" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a199ea54-3332-49f8-b363-32e474b25d78">
+  <img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Reset-Factory-Settings/Creality_K1_Reset_Utility.png">
 
 - Make sure your printer is turned on and connected to your local network.
 
