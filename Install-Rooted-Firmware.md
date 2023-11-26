@@ -53,15 +53,15 @@ This guide explain how to install firmware and enable Root access.
 
 - On the screen UI, go to `Settings` -> `Root account information`:
 
-  <img width="600" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/030d49df-de42-4d3d-a91f-cc1127399040">
+  <img width="600" alt="01" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Install-Rooted-Firmware/01.png">
 
 - Carefully review the disclaimer, check the agreement box, wait 30 seconds and click on `OK` button:
 
-  <img width="600" alt="02" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/3d0f0292-bbad-420a-aeba-6f5a902649f7">
+  <img width="600" alt="02" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Install-Rooted-Firmware/02.png">
 
 - Root access is now enabled, you can click on `OK` button:
 
-  <img width="600" alt="03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a327bd05-6db0-464f-9b4c-7b333651bafd">
+  <img width="600" alt="03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Install-Rooted-Firmware/03.png">
 
 - You can now connect to SSH (Guide is available [here](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/SSH-Connection)) with:
 
