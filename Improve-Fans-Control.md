@@ -109,11 +109,11 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
 - You can now change the trigger temperature of the chamber and motherboard fans here:
 
-  <img width="615" alt="Capture d’écran 2023-11-17 à 19 43 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/4838e182-03a3-46a9-95b1-027e485887d2">
+  <img width="615" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Fans-Control/Fan_01.png">
 
 - You can also change the motherboard fan speed manually here:
 
-  <img width="617" alt="Capture d’écran 2023-11-17 à 19 44 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/a8982efd-fcfa-46ee-ade4-6c7cb2330ab7">
+  <img width="617" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Fans-Control/Fan_02.png">
 
 - Open `gcode_macro.cfg` file and add this macros:
 
@@ -151,7 +151,7 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
   This macros allow to use `Print chamber temperature` function in OrcaSlicer with **M141 Sxx** and **M191 Sxx** commands:
 
-  <img width="600" alt="Capture d’écran 2023-11-20 à 23 28 44" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/9b3a032a-2661-4c67-b19a-c1e7cbbc3c4f">
+  <img width="600" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Fans-Control/M191.png">
 
 - Then, find macro named `[gcode_macro M106]` and replace it with this one:
 
@@ -194,7 +194,7 @@ It's possible to trigger the back fan depending on the chamber temperature and t
 
   This macros allow to use `Exhaust fan` function in OrcaSlicer with **M106 P3 Sxx** command:
 
-  <img width="600" alt="Capture d’écran 2023-11-20 à 23 37 46" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/117efaea-fcf6-46a8-8e0a-28b1f8b9a668">
+  <img width="600" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Improve-Fans-Control/FM106.png">
 
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
@@ -211,7 +211,7 @@ It's possible to control hotend and side fans during nozzle cleaning process. Th
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Nozzle Cleaning Fan Control files`:
 
-  <img width="900" alt="Capture d’écran 2023-11-23 à 01 48 35" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/633764d2-fb37-4757-a2c0-7fd06b954b65">
+  <img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Installation-Helper-Script/Installation-Helper-Script.png">
 
 -  Open `printer_params.cfg` file:
 
