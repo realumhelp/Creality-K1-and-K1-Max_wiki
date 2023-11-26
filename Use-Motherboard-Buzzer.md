@@ -13,7 +13,7 @@ It's possible to use the buzzer integrated into the motherboard to play a sound 
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Buzzer Support files`:
 
-  <img width="900" alt="Capture d’écran 2023-11-23 à 01 48 35" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/633764d2-fb37-4757-a2c0-7fd06b954b65">
+  <img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Installation-Helper-Script/Installation-Helper-Script.png">
 
 - Then reboot your printer.
 
