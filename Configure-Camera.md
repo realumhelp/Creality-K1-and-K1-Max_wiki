@@ -6,7 +6,7 @@
 
 - If not working, delete the existing camera and recreate it with these settings:
 
-  <img width="400" alt="Capture d’écran 2023-08-04 à 00 46 48" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2aeafdb2-67b9-4c5b-9fe2-635dd2875512">
+  <img width="400" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Configure-Camera/Fluidd_Camera.png">
 
 <br />
 
@@ -16,7 +16,7 @@
 
 - Configure your webcam like this:
 
-  <img width="899" alt="Capture d’écran 2023-08-18 à 03 48 15" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/0f025309-845b-4e88-9d79-6e63574d840f">
+  <img width="899" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Configure-Camera/Mainsail_Camera.png">
 
 <br />
 
