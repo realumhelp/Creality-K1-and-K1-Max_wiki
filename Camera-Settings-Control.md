@@ -13,7 +13,7 @@ It's possible to control camera settings with macros.
 
 - In the script, enter in `[Install Menu]` by typing `1` and validate with `Enter` and install `Camera Settings Control files`:
 
-  <img width="900" alt="Capture d’écran 2023-11-23 à 01 48 35" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/633764d2-fb37-4757-a2c0-7fd06b954b65">
+  <img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Installation-Helper-Script/Installation-Helper-Script.png">
 
 <br />
 
@@ -34,12 +34,12 @@ It's possible to control camera settings with macros.
 
 - Now you can use the different macros starting with `CAM_` to configure your camera settings:
 
-  <img width="725" alt="Capture d’écran 2023-10-04 à 23 53 03" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/74d9f55f-f644-4863-b0fd-50f9a29b5c73">
+  <img width="725" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Camera-Settings-Control/Camera_01.png">
 
 
   `CAM_SETTINGS` macro can be used to show all current camera settings:
 
-  <img width="900" alt="Capture d’écran 2023-10-04 à 23 48 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/b470aa7a-1d72-47bb-bd20-89a55e4abd68">
+  <img width="900" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Camera-Settings-Control/Camera_02.png">
 
 - When restarting the printer your camera settings will not be preserved, to correct this open `camera-settings.cfg` and add this lines by modifying the desired values:
 
