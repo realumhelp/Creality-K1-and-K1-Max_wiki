@@ -1,6 +1,6 @@
 ## Motherboard Layout
 
-![Motherboard](https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/66faca9f-fd78-4926-8e3f-dc0efcbc67d5)
+![Motherboard](https://github-production-user-asset-6210df.s3.amazonaws.com/12702322/268450850-66faca9f-fd78-4926-8e3f-dc0efcbc67d5.png)
 
 ## Motherboard Pinout
 
