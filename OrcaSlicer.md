@@ -1,6 +1,6 @@
 I made a printer profile for Creality K1 and K1 Max in OrcaSlicer.
 
-<img width="1000" alt="Capture d’écran 2023-08-04 à 02 07 23" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2a33c5a7-b9a9-4644-adb1-6f6957c7b332">
+<img width="1000" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/OrcaSlicer/OrcaSlicer_01.png">
 
 <br /><br />
 
@@ -26,11 +26,11 @@ It contains:
 
 - In OrcaSlicer, click on `Connexion` icon:
 
-  <img width="641" alt="Capture d’écran 2023-08-04 à 02 19 39" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/5eda3916-5e73-4d1d-ae42-96c2b127363a">
+  <img width="641" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/OrcaSlicer/OrcaSlicer_02.png">
 
 - In section `Hostname, IP or URL`, enter the IP address of your printer with port 4408 if you use Fluidd or 4409 if you use Mainsail such as: `http://xxx.xxx.xxx.xxx:4408/` (replacing xxx.xxx.xxx.xxx by your local IP address):
 
-  <img width="952" alt="Capture d’écran 2023-08-04 à 02 24 10" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/ed1c6190-aa23-4f37-9564-e6d65861d980">
+  <img width="952" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/OrcaSlicer/OrcaSlicer_03.png">
 
 - You can now upload Gcode files to your printer.
 
