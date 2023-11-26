@@ -27,8 +27,8 @@ You can improve Bed Mesh just changing the interpolation from lagrange to bicubi
   mesh_min: 5,5
   mesh_max: 295,295
   probe_count: 6,6
-  fade_start: 3.0
-  fade_end: 10.0
+  fade_start: 5.0
+  fade_end: 50.0
   algorithm: bicubic
   bicubic_tension: 0.1
   ```
