@@ -45,7 +45,7 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
   You can select Bed temperature you want for PID calibration:
 
-  <img width="600" alt="Capture d’écran 2023-09-02 à 14 31 04" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c081e460-2dc6-439c-84ce-0beb503ee01e">
+  <img width="600" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Useful-Macros/Macro_01.png">
 
 <br /><br />
 
@@ -70,7 +70,7 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
   You can select Hotend temperature you want for PID calibration:
 
-  <img width="600" alt="Capture d’écran 2023-09-02 à 14 31 17" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/2b1148d1-b90a-46d4-8cd2-99feb7f71e98">
+  <img width="600" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Useful-Macros/Macro_02.png">
 
 
 <br />
@@ -114,7 +114,7 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
 
   You can define some parameters for Bed Leveling like Hotend and Bed temperatures or Probe count:
 
-  <img width="600" alt="Capture d’écran 2023-09-02 à 16 27 28" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/assets/12702322/c4a7a4c6-e443-44cd-b78b-6b2d964a5c88">
+  <img width="600" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Useful-Macros/Macro_03.png">
 
 <br /><br />
 
