@@ -123,29 +123,22 @@ It's possible to trigger the back fan depending on the chamber temperature and t
   gcode:
     {% set s = params.S|float %}
     SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
-    { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
+    { action_respond_info("Chamber target temperature: %s°C" % (s)) }
 
   [gcode_macro M191]
-  description: Set Chamber Temperature with slicers
+  description: Wait for Chamber Temperature to heat up
   gcode:
     {% set s = params.S|float %}
-    SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
-    { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
-  ```
-
-  Another alternative for the **M191** macro to heat the bed to 100C° to reach a desired chamber temperature before starting a print:
-
-  ```
-  [gcode_macro M191]
-  description: Wait Chamber Temperature before start print
-  gcode:
-    {% set s = params.S|float %}
+    {% set chamber_temp = printer["temperature_sensor chamber_temp"].temperature|float %}
     {% if s > 0 %}
-      SET_TEMPERATURE_FAN_TARGET TEMPERATURE_FAN=chamber_fan TARGET={s}
+      M141 S{s}
+    {% endif %}
+    {% if s > chamber_temp and s <= 90 %}
       M140 S100
-      { action_respond_info("Waiting for bed to heat up...") }
-      TEMPERATURE_WAIT SENSOR="temperature_fan chamber_fan" MINIMUM={s-1} MAXIMUM={s+1}
-      { action_respond_info("Chamber fan target temperature: %s°C" % (s)) }
+      { action_respond_info("Waiting for the bed to heat up the chamber...") }
+      TEMPERATURE_WAIT SENSOR="temperature_fan chamber_fan" MINIMUM={s-1}
+      { action_respond_info("Chamber target temperature reached: %s°C" % (s)) }
+      M140 S{s}
     {% endif %}
   ```
 
