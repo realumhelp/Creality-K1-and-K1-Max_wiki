@@ -12,4 +12,5 @@ Special Thanks to:
 - [Sendorm](https://www.reddit.com/user/Sendorm/) for fix for printing Gcode from folder.
 - [Quinn Damerell](https://github.com/QuinnDamerell) for OctoEverywhere.
 - [Kenneth Jiang](https://github.com/kennethjiang) for Obico.
+- [mulder999](https://github.com/mulder999) for M191 macro.
 - Colt45RPM from Discord for KAMP testing.
