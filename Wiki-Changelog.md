@@ -1,3 +1,6 @@
+**27/11/2023 #2**
+- Updated **M191** command, see [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
+
 **23/11/2023 #2**
 - Updated KAMP for K1 Series to remove underscore in macros. Please update your gcode_macro.cfg file, see [Use KAMP](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-KAMP) section.
 
