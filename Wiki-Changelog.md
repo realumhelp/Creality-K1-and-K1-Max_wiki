@@ -1,4 +1,7 @@
 **27/11/2023 #2**
+- Updated script to v3.7.1 to add warning to install Entware before to install Obico.
+
+**27/11/2023**
 - Updated **M191** command, see [Improve Fans Control](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Improve-Fans-Control) section.
 
 **23/11/2023 #2**
