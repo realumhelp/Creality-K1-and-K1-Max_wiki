@@ -14,7 +14,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v3.7
+**Current script version:** v3.7.1
 
 ## Install 'Installation Helper Script'
 
