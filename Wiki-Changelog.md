@@ -1,3 +1,6 @@
+**30/11/2023 #2**
+- Updated script to v3.8 to remove and restore Creality Web Interface and replace it with Fluidd or Mainsail on port 80.
+
 **27/11/2023 #2**
 - Updated script to v3.7.1 to add warning to install Entware before to install Obico.
 
