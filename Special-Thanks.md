@@ -1,6 +1,6 @@
 Special Thanks to:
 
-- [destinal](https://www.reddit.com/user/destinal/) for old rooted firmwares, Entware and Mobileraker Companion scripts.
+- [destinal](https://www.reddit.com/user/destinal/) for old rooted firmwares, Entware, Mobileraker Companion scripts and for Remove/Restore Creality Web Interface.
 - [aim6max](https://www.reddit.com/u/aim6max/) and [omranello2222](https://www.reddit.com/u/omranello2222/) for testing and assistance for old rooted firmwares.
 - [xand3r40r93](https://www.reddit.com/u/xand3r40r93/) for his prtouch_v2_fan script.
 - [JSTECH](https://www.youtube.com/@Jstech3d) for providing some older firmwares.
