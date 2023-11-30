@@ -1,4 +1,4 @@
-**30/11/2023 #2**
+**30/11/2023**
 - Updated script to v3.8 to remove and restore Creality Web Interface and replace it with Fluidd or Mainsail on port 80.
 
 **27/11/2023 #2**
