@@ -21,3 +21,14 @@
   <img width="2500" src="https://github.com/Guilouz/Creality-K1-and-K1-Max/blob/main/images/Access-to-Web-Interface/Mainsail_Web_Interface.png">
 
 <br />
+
+## Alternative
+
+With [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Installation-Helper-Script) you can also remove Creality Web Interface and replace it by Fluidd or Mainsail to use one of them on port 80.
+
+This can be useful in some cases if an application or hardware does not support the IP address with a defined port like the BigTreeTech Knomi V2.
+
+> [!WARNING]
+> **Note that you will no longer be able to print via WiFi with Creality Print if you remove Creality Web Interface (but you can restore it if needed).**
+
+<br />
