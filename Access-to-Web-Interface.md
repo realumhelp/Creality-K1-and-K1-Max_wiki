@@ -30,8 +30,8 @@ This can be useful in some cases if an application or hardware does not support 
 
 <br />
 
-- If you set Fluidd as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4408/`
-- If you set Mainsail as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4409/`
+- If you set **Fluidd** as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4408/`
+- If you set **Mainsail** as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4409/`
 
 <br />
 
