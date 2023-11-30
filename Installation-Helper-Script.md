@@ -14,7 +14,7 @@ With this guide and my script you can install latest official builds.
 
 <br />
 
-**Current script version:** v3.7.1
+**Current script version:** v3.8
 
 ## Install 'Installation Helper Script'
 
@@ -103,6 +103,9 @@ If you have already installed Moonraker, Fluidd or Mainsail provided by Creality
 
 - **Install & Remove `Custom Boot Display`**
   - To install a custom Creality-themed boot display.
+
+- **Remove & Restore `Creality Web Interface`**
+  - To remove Creality Web Interface and replace it with Fluidd or Mainsail on port 80.
 
 - **Install & Remove `Buzzer Support files` - More info in [Use Motherboard Buzzer](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Use-Motherboard-Buzzer) section**
   - Allows to use motherboard buzzer.
