@@ -1,3 +1,6 @@
+**30/11/2023 #2**
+- Updated script to v3.8.2 to improve ip address retrieving and minor fixes.
+
 **30/11/2023**
 - Updated script to v3.8 to remove and restore Creality Web Interface and replace it with Fluidd or Mainsail on port 80 (in Customization Menu).
 - Updated [Access to Web Interface](https://github.com/Guilouz/Creality-K1-and-K1-Max/wiki/Access-to-Web-Interface) section.
