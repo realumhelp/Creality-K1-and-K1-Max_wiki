@@ -28,6 +28,13 @@ With [Installation Helper Script](https://github.com/Guilouz/Creality-K1-and-K1-
 
 This can be useful in some cases if an application or hardware does not support the IP address with a defined port like the BigTreeTech Knomi V2.
 
+<br />
+
+- If you set Fluidd as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4408/`
+- If you set Mainsail as the default Web Interface then it will be accessible with `http://xxx.xxx.xxx.xxx/` and `http://xxx.xxx.xxx.xxx:4409/`
+
+<br />
+
 > [!WARNING]
 > **Note that you will no longer be able to print via WiFi with Creality Print if you remove Creality Web Interface (but you can restore it if needed).**
 
