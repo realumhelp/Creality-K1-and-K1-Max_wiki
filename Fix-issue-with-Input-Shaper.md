@@ -86,7 +86,6 @@ Here are the tests that demonstrate this:
     {% set y_park = printer.toolhead.axis_maximum.y/2 %}
     {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
     G1 X{x_park} Y{y_park} F20000
-    M84
   ```
 
 - Then, click on `SAVE & RESTART` button in the top right corner.
