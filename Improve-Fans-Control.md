@@ -80,7 +80,7 @@ It's possible to trigger the back fan depending on the chamber temperature and t
   max_speed: 1.0
   min_speed: 0.0
 
-  [temperature_fan cpu_fan]
+  [temperature_fan mcu_fan]
   pin: PB2
   cycle_time: 0.0100
   hardware_pwm: false
@@ -95,7 +95,7 @@ It's possible to trigger the back fan depending on the chamber temperature and t
   max_speed: 1.0
   min_speed: 0.0
 
-  [output_pin cpu_fan]
+  [output_pin mcu_fan]
   pin: PB2
   pwm: True
   cycle_time: 0.0100
