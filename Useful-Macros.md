@@ -18,7 +18,6 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
     {% set y_park = printer.toolhead.axis_maximum.y/2 %}
     {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
     G1 X{x_park} Y{y_park} F20000
-    M84
   ```
 
 <br />
@@ -64,7 +63,6 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
     {% set x_park = printer.toolhead.axis_maximum.x|float - 10.0 %}
     G1 X{x_park} Y{y_park} F20000
     WAIT_TEMP_START
-    M84
   ```
 
   You can select Hotend temperature you want for PID calibration:
@@ -108,7 +106,6 @@ This macros are already mentioned in [Fix issue with Input Shaper](https://githu
     TURN_OFF_HEATERS
     SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=1
     SET_FILAMENT_SENSOR SENSOR=filament_sensor_2 ENABLE=1
-    M84
   ```
 
   You can define some parameters for Bed Leveling like Hotend and Bed temperatures or Probe count:
